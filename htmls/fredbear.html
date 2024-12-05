@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freddy Fazbear's Pizza - Sobrevive</title>
+    
+    <style>
+        /* Ajustar el tamaño de las imágenes dentro de la sección */
+        .imagen-seccion img {
+            width: 500px; 
+            height: auto; 
+            display: block;
+            margin: 0 auto; 
+        }
+
+        .imagen-seccion {
+            flex: 0 0 auto;
+            margin-left: 20px;
+            width: 500px; 
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+            background-image: url('https://static.wikia.nocookie.net/pizzaria-freddy-fazbear/images/d/d1/Party_Room_1.png/revision/latest?cb=20150919013554&path-prefix=pt-br');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        header img {
+            width: 500px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            animation: EntrarDesdeIzq 1s ease-out forwards; 
+        }
+
+        header {
+            background-color: #600000;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            border-bottom: 2px solid #ff0000;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 2px 2px 5px #ff0000;
+        }
+
+        #contenido {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .contenido-seccion {
+            display: flex;
+            flex-direction: column;
+            background-image: url('https://static.wikia.nocookie.net/pizzaria-freddy-fazbear/images/d/d1/Party_Room_1.png/revision/latest?cb=20150919013554&path-prefix=pt-br');
+            background-size: auto;
+            background-repeat: repeat;
+            background-position: top left;
+            padding: 20px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+
+        .contenido-seccion .seccion {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .contenido-seccion .seccion .texto-seccion {
+            flex: 1;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+
+        .contenido-seccion .seccion .imagen-seccion {
+            flex: 0 0 200px;
+            margin-left: 20px;
+        }
+
+        .contenido-seccion .seccion .imagen-seccion img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #600000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 2px solid #ff0000;
+        }
+    </style>
+
+    <script>
+        function mostrarHistoria() {
+            document.getElementById("contenido").innerHTML = `
+                <div class="contenido-seccion">
+                    <div class="seccion">
+                        <div class="texto-seccion">
+                            <h3>Historia</h3>
+                            <h4>Juegos</h4>
+                            <p>Fredbear's Family Diner fue inaugurado algún tiempo antes de 1983 por Henry Emily y su socio comercial William Afton. Henry también fue quien creó los animatrónicos y mascotas del restaurante; Fredbear y Spring Bonnie, ambos con un mecanismo accionado por resortes que les permitía cambiar entre un traje usable por los empleados y animatrónicos funcionales independientes, esto para evitar romper cualquier inmersión con los clientes.</p>
+                            <p>Fredbear's aparentemente tuvo una buena recepción, ya que fue un lugar de cumpleaños popular entre los niños y los personajes animatrónicos eran lo suficientemente populares como para tener su propia línea de productos e incluso su propio programa de televisión llamado "Fredbear & Friends".</p>
+                            <p>Un día, un niño pequeño que estaba profundamente asustado por los animatrónicos celebró allí su cumpleaños. Su hermano mayor y sus amigos, conscientes de su miedo, comienzan a jugarle una broma con el animatrónico Fredbear, metiéndole la cabeza en la boca. Mientras los adolescentes se ríen de los esfuerzos del niño por intentar salir, se escucha un crujido enfermizo cuando el animatrónico muerde, lo que hace que los adolescentes dejen de reír y se queden mirando en estado de shock al niño inconsciente. Este incidente fue denominado "La Mordida del '83".</p>
+                            <p>Está fuertemente implícito que debido a este incidente, el restaurante perdió popularidad hasta el punto de verse obligado a cerrar.</p>
+                        </div>
+                        <div class="imagen-seccion">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9tC_X0qvZrodouOJPKjzs8WvO2iyjXBMWxQ&s" alt="Fredbear" style="width: 300px; height: auto;">
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+    </script>
+</head>
+<body onload="mostrarHistoria()">
+    <header>
+        <img src="../imagenes/egg.gif" alt="Título">
+    </header>
+
+    <div id="contenido">
+        <!-- El contenido principal se carga aquí mediante JavaScript -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Freddy Fazbear's Pizza. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

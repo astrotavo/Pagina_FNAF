@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elizabeth Afton</title>
+    
+    <style>
+        /* Ajustar el tamaño de las imágenes dentro de la sección */
+        .imagen-seccion img {
+            width: 500px;  
+            height: auto;  
+            display: block; 
+            margin: 0 auto; 
+        }
+
+        .imagen-seccion {
+            flex: 0 0 auto; 
+            margin-left: 20px;
+            width: 500px; 
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+            background-image: url('https://static.wikia.nocookie.net/pizzaria-freddy-fazbear/images/d/d1/Party_Room_1.png/revision/latest?cb=20150919013554&path-prefix=pt-br');
+            background-size: cover;
+            background-attachment: fixed;
+            transition: background-color 1s ease; /* Animación suave para el cambio de color */
+        }
+
+        header img {
+            width: 500px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            animation: EntrarDesdeIzq 1s ease-out forwards; 
+        }
+
+        header {
+            background-color: #600000;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            border-bottom: 2px solid #ff0000;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 2px 2px 5px #ff0000;
+        }
+
+        #contenido {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .contenido-seccion {
+            display: flex;
+            flex-direction: column;
+            background-image: url('https://static.wikia.nocookie.net/pizzaria-freddy-fazbear/images/d/d1/Party_Room_1.png/revision/latest?cb=20150919013554&path-prefix=pt-br');
+            background-size: auto;
+            background-repeat: repeat;
+            background-position: top left;
+            padding: 20px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+
+        .contenido-seccion .seccion {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .contenido-seccion .seccion .texto-seccion {
+            flex: 1;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+
+        .contenido-seccion .seccion .imagen-seccion {
+            flex: 0 0 200px;
+            margin-left: 20px;
+        }
+
+        .contenido-seccion .seccion .imagen-seccion img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #600000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 2px solid #ff0000;
+        }
+
+        .tachado {
+            text-decoration: line-through;
+            color: red;
+        }
+
+        #jumpscare {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            z-index: 9999;
+        }
+
+        #jumpscare video {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body onload="iniciarEventos()">
+    <header>
+        <img src="../imagenes/egg.gif" alt="Título">
+    </header>
+
+    <div id="contenido">
+        <!-- El contenido principal se carga aquí mediante JavaScript -->
+    </div>
+
+    <div id="jumpscare">
+        <video id="videoJumpscare" autoplay></video>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Elizabeth Afton. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function iniciarEventos() {
+        // Mostrar la historia al inicio
+        mostrarHistoria();
+
+        // Esperar 10 segundos para comenzar el audio y luego el jumpscare
+        setTimeout(() => {
+            reproducirAudioConYouTube();
+        }, 10000);
+    }
+
+    function reproducirAudioConYouTube() {
+        // Insertar el iframe en el DOM
+        const iframe = document.createElement('iframe');
+        iframe.width = "0";
+        iframe.height = "0";
+        iframe.src = "https://www.youtube.com/embed/22Q1MbuC56o?autoplay=1&mute=0&controls=0";
+        iframe.frameBorder = "0";
+        iframe.allow = "autoplay";
+        document.body.appendChild(iframe);
+
+        // Configurar el temporizador para iniciar el jumpscare después de 10 segundos
+        setTimeout(() => {
+            reproducirVideo();
+        }, 28000); // Ajustar según la duración del audio en YouTube
+    }
+
+    function reproducirVideo() {
+        const jumpscare = document.getElementById('jumpscare');
+        const video = document.getElementById('videoJumpscare');
+        jumpscare.style.display = 'block';
+        video.src = '../videos/jumpscare.mp4';
+        video.muted = false; // Desactivar mute
+        video.play();
+
+        // Ocultar el jumpscare cuando termine el video
+        video.onended = () => {
+            jumpscare.style.display = 'none';
+        };
+    }
+
+        function mostrarHistoria() {
+            document.getElementById("contenido").innerHTML = ` 
+                <div class="contenido-seccion">
+                    <div class="seccion">
+                        <div class="texto-seccion">
+                            <h3>Apariencia</h3>
+                            <p><span class="tachado">Elizabeth</span> es una niña pequeña de piel clara, cabello anaranjado y ojos verdes. En el momento de su muerte, vestía una camisa rosa con dos botones negros, un lazo rojo en el pelo, una falda azul y zapatos negros.</p>
+                            <p>En la adaptación gráfica de <i>Five Nights at Freddy's: The Freddy Files</i>, fue retratada como una niña de cabello largo y rubio con un lazo azul. Llevaba una camiseta azul con la imagen de un pequeño cono de helado y pantalones azules. Después de obsesionarse con Circus Baby, usa un vestido blanco y azul, una diadema azul en el pelo, una falda azul y zapatos negros. Más tarde, su cabello se cambió a castaño, probablemente para parecerse más a Circus Baby. Su cabello permaneció castaño por el resto de sus apariciones.</p>
+                        </div>
+                        <div class="imagen-seccion">
+                            <img id="imagenElizabeth" src="https://static.wikia.nocookie.net/fivenightsatfreddys/images/c/ca/ElizabethAftonHD.png/revision/latest?cb=20240711072106" alt="Elizabeth Afton" style="width: 100px; height: auto;">
+                            <a>Elizabeth Afton</a>
+                        </div>
+                    </div>
+
+                    <div class="seccion">
+                        <div class="texto-seccion">
+                            <h3>Personalidad</h3>
+                            <p><span class="tachado">Elizabeth</span> parece ser una niña muy inocente con una fascinación por Circus Baby. Tiene una mentalidad infantil y se maravilla con la capacidad de Baby para hacer helados y globos. A pesar de su naturaleza infantil, también muestra una personalidad más agresiva y malcriada, pidiendo insistentemente a su padre que le dejara ver a Baby. Ella cree que la máquina fue hecha solo para ella como un regalo. Su desobediencia y su insistencia en acercarse a Baby sin la autorización de su padre terminaron en su trágica muerte y en la cancelación de la gran inauguración de Circus Baby's Pizza World.</p>
+                        </div>
+                        <div class="imagen-seccion">
+                            <a href="baby.html" target="_blank" onclick="cambiarContenido()">
+                                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4185a6db-8adf-4eb8-b1aa-5dbe7910fd75/dcbfpk1-8a428e23-e8dd-411e-a4da-aaa2e8a2ea76.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQxODVhNmRiLThhZGYtNGViOC1iMWFhLTVkYmU3OTEwZmQ3NVwvZGNiZnBrMS04YTQyOGUyMy1lOGRkLTQxMWUtYTRkYS1hYWEyZThhMmVhNzYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7Rv3EEDeIx4wMROlGDPO7yz801n2U12YcpYG8i_s3lM" alt="Circus Baby" style="width: 200px; height: auto;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function cambiarContenido() {
+            // Cambiar la imagen
+            document.getElementById("imagenElizabeth").src = "https://www.nicepng.com/png/full/405-4053419_adventure-crying-child-by-manglethefoxtoy-d9a4z7v-fnaf-world.png";
+
+            // Cambiar el texto de Elizabeth Afton a Circus Baby
+            let textoElementos = document.querySelectorAll(".tachado");
+            textoElementos.forEach(function(element) {
+                element.textContent = "Circus Baby";
+                element.classList.remove("tachado");
+            });
+        }
+    </script>
+</body>
+</html>

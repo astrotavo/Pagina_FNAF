@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freddy Fazbear's Pizza - Sobrevive</title>
+    
+    <style>
+        .imagen-seccion img {
+            width: 500px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+
+        .imagen-seccion {
+            flex: 0 0 auto;
+            margin-left: 20px;
+            width: 500px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+            background-image: url('https://static.wikia.nocookie.net/pizzaria-freddy-fazbear/images/d/d1/Party_Room_1.png/revision/latest?cb=20150919013554&path-prefix=pt-br');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        header img {
+            width: 500px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            animation: EntrarDesdeIzq 1s ease-out forwards; 
+        }
+
+        header {
+            background-color: #600000;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            border-bottom: 2px solid #ff0000;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 2px 2px 5px #ff0000;
+        }
+
+        #contenido {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .contenido-seccion {
+            display: flex;
+            flex-direction: column;
+            background-image: url('https://static.wikia.nocookie.net/pizzaria-freddy-fazbear/images/d/d1/Party_Room_1.png/revision/latest?cb=20150919013554&path-prefix=pt-br');
+            background-size: auto;
+            background-repeat: repeat;
+            background-position: top left;
+            padding: 20px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+
+        .contenido-seccion .seccion {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .contenido-seccion .seccion .texto-seccion {
+            flex: 1;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+
+        .contenido-seccion .seccion .imagen-seccion {
+            flex: 0 0 200px;
+            margin-left: 20px;
+        }
+
+        footer {
+            background-color: #600000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 2px solid #ff0000;
+        }
+    </style>
+    <script>
+        function mostrarHistoria() {
+            document.getElementById("contenido").innerHTML = `
+                <div class="contenido-seccion">
+                    <div class="seccion">
+                        <div class="texto-seccion">
+                            <h3>Apariencia</h3>
+                            <p>Se desconoce la verdadera apariencia física de William, ya que solo se lo ha visto en los minijuegos, donde se lo representa como un sprite de color morado del tamaño y la forma de un hombre adulto. Este sprite cambia ligeramente entre cada entrega. Su boca casi siempre parece tener la forma de una alargada sádica sonrisa. Se ve que William tiene la barbilla hendida fuera de los minijuegos. No es hasta <i>Five Nights at Freddy's 3</i> que conserva una apariencia semiconsistente, aunque infrautilizada, aunque tiene ojos expresivos y una boca que transmite su estado emocional.</p>
+                            <p>El mayor detalle que William ha mostrado es durante el minijuego <i>S-A-V-E-T-H-E-M</i>, en el que se revela que es un hombre tallo y delgado con un cuello largo y tiene un objeto amarillo en el pecho que se asemeja a una placa de seguridad, y sostiene un objeto púrpura, que se especula que es un arma o herramienta, o posiblemente solo sus manos extendidas en una pose de señas.</p>
+                        </div>
+                        <div class="imagen-seccion">
+                            <img src="https://static.wikia.nocookie.net/five-nights-at-freddys-vhs/images/5/5a/William_Afton.png/revision/latest/scale-to-width/360?cb=20200916171542" alt="William Afton" style="width: 200px; height: auto;">
+                            <a>William Afton</a>
+                        </div>
+                    </div>
+
+                    <div class="seccion">
+                        <div class="texto-seccion">
+                            <h3>Personalidad</h3>
+                            <p>William Afton es la definición de libro de texto del mal. Es el asesino en serie sádico y depravado que provocó la caída de su propia empresa, Fazbear Entertainment. Asesinó a casi una docena de niños a sangre fría y comenzó la trágica cadena de eventos que lleva a varios jugadores a lo largo de la serie. A juzgar por sus acciones y apariencia dentro de los juegos, William es malvado, de sangre fría y metódico, y claramente no muestra remordimiento por sus acciones. Incluso fue lo suficientemente malicioso como para asesinar a la amada hija de su amigo más cercano y socio comercial, Charlotte, un evento que causó una inmensa confusión emocional en Henry hasta el punto en que casi se suicida. Esto solo muestra que William está más que dispuesto a dañar a sus amigos, ya sea mental, emocional o físicamente.</p>
+                            <p>Como se muestra en cada minijuego en el que aparece, siempre sonríe desquiciado durante sus asesinatos. En el minijuego <i>Pizza Party</i> en <i>Five Nights at Freddy's: Help Wanted</i>, que parece ser una recreación de uno de los asesinatos de Afton, Glitchtrap, quien se supone representa a Afton, se puede ver bailando alegremente después de asesinar a su víctima, burlándose de ella mientras está atrapada dentro de un traje robótico y sufriendo una muerte lenta y dolorosa. Este ejemplo muestra que William es extremadamente despiadado, burlón y sádico, y parece deleitarse, satisfacerse y enorgullecerse del asesinato de personas inocentes y disfruta viendo a sus víctimas sufrir en agonía, especialmente cuando sus víctimas son meros niños. </p>
+                        </div>
+                        <div class="imagen-seccion">
+                            <img src="https://static.wikia.nocookie.net/villainsfanon/images/b/b1/Static-assets-upload10756605430107994098.webp/revision/latest/scale-to-width-down/250?cb=20210120091858" alt="Personalidad William Afton"style="width: 200px; height: auto;">
+                        </div>
+                    </div>
+
+                    <div class="seccion">
+                        <div class="texto-seccion">
+                            <h3>Relación con sus hijos</h3>
+                            <<p>A pesar de su naturaleza cruel, en <i>Sister Location</i> se da a entender que amaba a su hija Elizabeth, haciendo todo lo posible para no dejarla acercarse a Circus Baby, ya que había programado el animatrónico para arrebatar y matar niños. Teniendo esto en cuenta, la conexión de William con Elizabeth puede no haber sido tan genuina como parecía. Sin embargo, la información clara sobre su relación con su hijo Michael Afton parece relativamente desconocida, aparte del hecho de que intentó matarlo en <i>Freddy Fazbear's Pizzeria Simulator</i>.</p>
+                            <p>William también mostró un profundo miedo a la muerte, lo que se evidenció en su intento de sobrevivir después de quedar atrapado dentro de un traje Springlock. A pesar de su sufrimiento físico, nunca mostró debilidad ante sus víctimas. Se sugiere que su miedo a la muerte se intensifica a medida que su condena se acerca.</p>
+                        </div>
+                        <div class="imagen-seccion">
+                            <img src="https://preview.redd.it/p4l8t9wy7iha1.jpg?auto=webp&s=41bc6205b6f2b6aa1afeb0c592d6b7b18696797e" alt="Relación con sus hijos"style="width: 200px; height: auto;">
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+         function cambiarImagen() {
+            // Cambiar solo la primera imagen
+            let primeraImagen = document.querySelector('.contenido-seccion .seccion .imagen-seccion img');
+            if (primeraImagen) {
+                primeraImagen.src = 'https://i.pinimg.com/474x/dc/15/19/dc1519b90a503991e009d6a439bf5b61.jpg'; // Nueva imagen para la primera imagen
+            }
+            
+            // Cambiar la última imagen
+            let ultimaImagen = document.querySelector('.contenido-seccion .seccion:last-child .imagen-seccion img');
+            if (ultimaImagen) {
+                ultimaImagen.src = 'https://assets.mycast.io/posters/the-afton-family-fan-casting-poster-146541-large.jpg?1637104149'; 
+            }
+        }
+    </script>
+</head>
+<body onload="mostrarHistoria()">
+    <header>
+        <a href="criminal.html" target="_blank" onclick="cambiarImagen()">
+            <img src="../imagenes/egg.gif" alt="Título">
+        </a>
+    </header>
+
+    <div id="contenido">
+        <!-- El contenido principal se carga aquí mediante JavaScript -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Freddy Fazbear's Pizza. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
