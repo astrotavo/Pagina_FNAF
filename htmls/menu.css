@@ -6,14 +6,11 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #000;
+    background-color: #000; /* Fondo negro */
     color: #fff;
     line-height: 1.6;
-    background-image: url('../images/fondo.jpg');
-    background-size: cover;
-    background-attachment: fixed; /* Fondo fijo al desplazarse */
+    background-attachment: fixed; /* Conservado en caso de futuro uso */
 }
-
 
 @keyframes EntrarDesdeIzq {
     from {
@@ -31,6 +28,7 @@ header img {
     margin: 0 auto;
     animation: EntrarDesdeIzq 1s ease-out forwards; 
 }
+
 header {
     background-color: #600000;
     color: white;
@@ -141,7 +139,6 @@ article h2 {
     width: 150px;
     height: auto;
 }
-
 
 footer {
     background-color: #600000;

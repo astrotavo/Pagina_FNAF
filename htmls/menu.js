@@ -772,7 +772,7 @@ function mostrarInicio() {
     `;
 
     // Cambiar el fondo de la página
-    document.body.style.backgroundImage = "url('https://static.wikia.nocookie.net/five-nights-at-freddys-espanol/images/a/ae/West_Hall.png/revision/latest?cb=20141115233615&path-prefix=es')";
+    document.body.style.backgroundImage = "url('imagenes/fondo.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center center";
      
