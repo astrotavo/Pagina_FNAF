@@ -806,7 +806,7 @@ function mostrarFnaf4() {
     document.getElementById("contenido").innerHTML = `
         <div style="text-align: center; font-family: Arial, sans-serif; color: white; background-color: #1b2838; padding: 20px; border-radius: 10px;">
             <h2 style="color: #66c0f4;">Five Nights at Freddy's 4</h2>
-            <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/2/28/FNaF4_-_Portada.jpg/revision/latest?cb=20150722220108&path-prefix=es" 
+            <img src="https://cdn2.steamgriddb.com/grid/12cc97842f39de60ed91cd3740d551b2.png" 
                  alt="Five Nights at Freddy's 4" 
                  style="width: 300px; border: 5px solid #66c0f4; border-radius: 10px; margin-bottom: 20px;">
             <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
@@ -1067,7 +1067,7 @@ function mostrarHelpWanted2() {
     document.getElementById("contenido").innerHTML = `
         <div style="text-align: center; font-family: Arial, sans-serif; color: white; background-color: #1b2838; padding: 20px; border-radius: 10px;">
             <h2 style="color: #66c0f4;">Five Nights at Freddy's help wanted 2</h2>
-            <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/0/02/FNaF_HW_2_cover_artwork.jpeg/revision/latest?cb=20231201232056&path-prefix=es" 
+            <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2287520/capsule_616x353.jpg?t=1718900946" 
                  alt="Five Nights at Freddy's help wanted 2 " 
                  style="width: 200px; border: 5px solid #66c0f4; border-radius: 10px; margin-bottom: 20px;">
             <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">

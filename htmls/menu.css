@@ -9,7 +9,7 @@ body {
     background-color: #000;
     color: #fff;
     line-height: 1.6;
-    background-image: url('../images/fondo.jpeg');
+    background-image: url('../images/fondo.jpg');
     background-size: cover;
     background-attachment: fixed; /* Fondo fijo al desplazarse */
 }
