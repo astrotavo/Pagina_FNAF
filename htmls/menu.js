@@ -13,7 +13,10 @@ function mostrarHistoria() {
         </p>
     </div>
     <div style="flex: 0 0 200px; margin-left: 20px;">
-        <img src="https://static.wikia.nocookie.net/near_pure_evil/images/7/7f/WillyA.png/revision/latest?cb=20201205151224" style="width: 100%; height: auto;">
+      <img src="imagenes/william.png" alt="william" style="width: 100%; height: auto;">
+
+
+
         <br>
         <a href="htmls/william.html" target="_blank">William Afton</a>
     </div>
@@ -26,7 +29,7 @@ function mostrarHistoria() {
         </p>
     </div>
     <div style="flex: 0 0 200px; margin-left: 20px;">
-        <img src="https://static.wikia.nocookie.net/fnaf-the-spanish-novels/images/a/a0/Henry_Emily.png/revision/latest?cb=20220213235812&path-prefix=es" style="width: 100%; height: auto;">
+        <img src="imagenes/henry.jpg" style="width: 100%; height: auto;">
         <br>
         <a href="htmls/henry.html" target="_blank">Henry</a>
     </div>
@@ -38,11 +41,13 @@ function mostrarHistoria() {
         Y por el otro lado, <strong>William Afton</strong>. La familia de Afton estaba compuesta por 5 miembros. <strong>William</strong>, una persona con mucho dinero y con buena capacidad para la mecánica. Su hija menor, <strong>Elizabeth</strong>. Este pendejo que no sabemos el nombre, pero llora todo el tiempo, así que vamos a ponerle <strong>Crying Child</strong>. <strong>Michael Afton</strong>, su hijo mayor y su esposa, de quien no se sabe nada. Estos dos personajes unieron sus capacidades de mecánicos y con el buen capital que tenía <strong>William</strong> ahorrado, entre los dos abrieron un restaurante. Así fue como entre los años 1980 a 1982, supuestamente, <i>Fredbear Family Dinner</i> abrió sus puertas.
         </p>
     </div>
-    <div style="flex: 0 0 200px; margin-left: 20px;">
-        <img src="https://static.wikia.nocookie.net/fnaf-the-spanish-novels/images/f/f3/Charlotte.png/revision/latest/scale-to-width/360?cb=20220212115516&path-prefix=es" style="width: 200px; height: auto;">
+    <div style="flex: 0 0 200px; margin-left: 20px; text-align: center;">
+        <img src="imagenes/charlie.png" style="width: 200px; height: auto;">
         <br>
         <a href="htmls/charlie.html" target="_blank">Charlie</a>
     </div>
+</div>
+
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
@@ -52,7 +57,7 @@ function mostrarHistoria() {
         </p>
     </div>
     <div style="flex: 0 0 200px; margin-left: 20px;">
-        <img src="https://static.wikia.nocookie.net/five-nights-at-freddys-super-fanon/images/4/4e/Fredbear_family_diner_logo.jpg/revision/latest?cb=20150526170649&path-prefix=es" style="width: 100%; height: auto;">
+        <img src="imagenes/Fredbear Family Dinner.jpg" style="width: 100%; height: auto;">
         <br>
         <a href="htmls/fredbear.html" target="_blank">Fredbear Family Dinner</a>
     </div>
@@ -101,7 +106,7 @@ function mostrarHistoria() {
         </p>
     </div>
     <div style="flex: 0 0 200px; margin-left: 20px;">
-        <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/0/03/The_Crying_Child.png/revision/latest?cb=20241027085749" style="width: 100px; height: auto;">
+        <img src="imagenes/cryingchild.png" style="width: 100px; height: auto;">
         <br>
         <a href="htmls/crying_child.html" target="_blank">Crying Child</a>
     </div>
@@ -137,7 +142,7 @@ function mostrarHistoria() {
         </p>
     </div>
     <div style="flex: 0 0 200px; margin-left: 20px;">
-       <img src="https://static.wikia.nocookie.net/fivenightsatfreddys/images/c/ca/ElizabethAftonHD.png/revision/latest?cb=20240711072106" style="width: 100px; height: auto;">
+       <img src="imagenes/elizabethafton.png" style="width: 100px; height: auto;">
 
         <br>
         <a href="htmls/elizabeth.html" target="_blank">Elizabeth Afton</a>
@@ -182,7 +187,7 @@ function mostrarHistoria() {
     </p>
   </div>
   <div style="flex: 0 0 200px; margin-left: 20px;">
-    <img src="https://static.wikia.nocookie.net/fnaf-world-fanon/images/1/11/EnnardTrans.png/revision/latest?cb=20170722145039&path-prefix=es" style="width: 100%; height: auto;">
+    <img src="imagenes/ennard.png" style="width: 100%; height: auto;">
     <br>
     <a href="htmls/ennard.html" target="_blank">Ennard</a>
   </div>
@@ -220,7 +225,7 @@ function mostrarHistoria() {
     </p>
   </div>
   <div style="flex: 0 0 200px; margin-left: 20px;">
-    <img src="https://static.wikia.nocookie.net/fivenightsatfreddys/images/f/fe/PhoneGuyUCN.png/revision/latest/scale-to-width/360?cb=20181106091057" style="width: 200px; height: auto;">
+    <img src="imagenes/phoneguy.png" style="width: 200px; height: auto;">
     <br>
     <a href="htmls/phoneguy.html" target="_blank">Phone Guy</a>
   </div>
@@ -325,7 +330,7 @@ function mostrarHistoria() {
     </p>
   </div>
   <div style="flex: 0 0 200px; margin-left: 20px;">
-    <img src="https://static.wikia.nocookie.net/five-nights-at-freddys-espanol/images/e/ed/Extra_Springtrap_1.png/revision/latest?cb=20150304030910&path-prefix=es" style="width: 300px; height: auto;">
+    <img src="imagenes/springtrap.png" style="width: 200px; height: auto;">
     <br>
     <a href="htmls/springtrap.html" target="_blank">Springtrap</a>
   </div>
@@ -375,7 +380,7 @@ function mostrarLibros() {
             <div class="libro">
                 <img id="libro-ojos-de-plata" src="https://m.media-amazon.com/images/I/91HCPs8IIBL._UF894,1000_QL80_.jpg" alt="Los ojos de plata">
                 <br>
-                <a href="https://www.amazon.com.mx/Five-Nights-Freddys-Ojos-Plata/dp/8416867356"target="_blank">Los ojos de plata</a>
+                <a href="https://www.amazon.com.mx/Five-Nights-Freddys-Ojos-Plata/dp/8416867356" target="_blank">Los ojos de plata</a>
                 <!-- Descripción oculta -->
                 <div id="descripcion-ojos-de-plata" class="descripcion" style="display: none;">
                     Diez años después de los horribles asesinatos en Freddy Fazbear's Pizza que destrozaron su ciudad, Charlie, cuyo padre era dueño del restaurante, y sus amigos de la infancia se reúnen en el aniversario de la tragedia y se encuentran en la vieja pizzería que había sido cerrada y abandonada durante años. Después de descubrir una forma de entrar, se dan cuenta de que las cosas no son como solían ser. Las cuatro mascotas animatrónicas de tamaño adulto que alguna vez entretuvieron a los clientes han cambiado. Ahora tienen un oscuro secreto... y una agenda asesina.
@@ -384,7 +389,7 @@ function mostrarLibros() {
             <div class="libro">
                 <img id="libro-otros-animatronicos" src="https://m.media-amazon.com/images/I/91OEapNFKiL._UF894,1000_QL80_.jpg" alt="Los otros animatrónicos">
                 <br>
-                <a href="https://www.amazon.com.mx/Nights-Freddys-otros-animatr%C3%B3nicos-Juvenil-ebook/dp/B07GJYCWGQ"target="_blank">Los otros animatrónicos </a>
+                <a href="https://www.amazon.com.mx/Nights-Freddys-otros-animatr%C3%B3nicos-Juvenil-ebook/dp/B07GJYCWGQ" target="_blank">Los otros animatrónicos </a>
                 <!-- Descripción oculta -->
                 <div id="descripcion-otros-animatronicos" class="descripcion" style="display: none;">
                    Ha pasado ya un año desde los terribles sucesos acontecidos en Freddy Fazbear's Pizza, y Charlie está haciendo todo lo posible por seguir adelante. Ni la emoción por empezar en una nueva escuela pueden hacerla olvidar lo sucedido; siguen persiguiéndola y atormentándola las pesadillas de un asesino enmascarado y sus cuatro temibles animatrónicos.
@@ -397,19 +402,200 @@ Hay algo absolutamente retorcido que está a punto de atrapar a Charlie, y esta 
             <div class="libro">
                 <img id="libro-cuarto-armario" src="https://m.media-amazon.com/images/I/81ox6OAm-NL.jpg" alt="El cuarto armario">
                 <br>
-                <a href="https://www.amazon.com.mx/Five-Nights-Freddys-Cuarto-Armario/dp/8417968105"target="_blank">El cuarto armario </a>
+                <a href="https://www.amazon.com.mx/Five-Nights-Freddys-Cuarto-Armario/dp/8417968105" target="_blank">El cuarto armario </a>
                 <!-- Descripción oculta -->
                 <div id="descripcion-cuarto-armario" class="descripcion" style="display: none;">
                     ¿Qué realmente le pasó a Charlie? Es la pregunta que John no puede dejar de lado, junto con las pesadillas sobre la aparente muerte de Charlie y su milagrosa reaparición. John solo quiere olvidar toda la aterradora saga de Freddy Fazbear's Pizza, pero el pasado no es tan fácil de enterrar. Mientras tanto, está abriendo una nueva pizzería con animatrónicos en Hurricane, junto con una nueva oleada de secuestros que se sienten demasiado familiares. Unidos por la pérdida de su infancia, John se une a regañadientes con Jessica, Marla y Carlton para resolver el caso y encontrar a los niños desaparecidos. En el camino, desentrañarán el retorcido misterio de lo que realmente le pasó a Charlie y el legado inquietante de las creaciones de su padre.
                 </div>
             </div>
         </div>
+         <br> <br> <br>
+       <h4 style="text-align: center; font-size: 24px;">Serie Escalofríos de Fazbear</h4>
+
+        <div class="libros">
+            <div class="libro">
+                <img id="libro-El-parque-de-bolas" src="https://images.cdn3.buscalibre.com/fit-in/360x360/af/e0/afe0f18d9f9d9f1f9c4e961b3ca8300b.jpg" alt="El parque de bolas">
+                <br>
+                <a href="https://www.amazon.com.mx/Nights-Freddys-Escalofr%C3%ADos-Fazbear-parque-ebook/dp/B09Q7QTT9M?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=32JVMAQ8W5G09&dib=eyJ2IjoiMSJ9.2LeOoBJ3c2X00jp_ZhNFYbcGTVUhKU0WEPgr64U299zqaNMAQzeM6RbopK0dqT7Fximm28GaYUu2sUJmV7MASCpBnBoMGMKTZbUGtWCkgXAvXhRt4PiAgj1glM7rkjCYIKMxG6mNJfYF9X0h-F5unAobrYIer_uKEPMNuguwsPNIiCAYfCX-I5rx9QTk64DsdZbITJUcYUQ-hnpiOSxBu1BdA7FmY7DqjvQOMs8d974g_DmGn9L5QFpttrhiFI8ZuwMW2gA7zoOEBZRjtRcQVv8IKbcWx3Sy8cDabnhpdWs.-pe-KJ4LxYiGG_stnX1XQGWXyyZGPun1I7a5ihB_-as&dib_tag=se&keywords=El+parque+de+bolas&qid=1733429284&sprefix=el+parque+de+bolas%2Caps%2C747&sr=8-1" target="_blank">El parque de bolas </a>
+                <!-- Descripción oculta -->
+                <div id="descripcion-parque-de-bolas" class="descripcion" style="display: none;">
+                    Lectores, ¡cuidado! Estas tres novelas cortas son suficientes para inquietar incluso a los más valientes.
+
+Si eres aficionado de Five Nights at Freddy’s, no querrás perderte esta colección de novelas que te mantendrán despierto.
+
+¿Qué es lo que más deseas? Oswald, Sarah y Millie creen conocer la respuesta. Oswald desearía que su verano no fuera tan monótono, Sarah desearía ser atractiva y Millie desearía poder desaparecer. Pero en el mundo de Five Nights at Freddy’s, los anhelos más profundos siempre tienen un lado oscuro y un costo inesperado.
+                </div>
+            </div>
+
+
+             <div class="libro">
+        <img id="libro-busca" src="https://m.media-amazon.com/images/I/91zrzjrzAqL._UF894,1000_QL80_.jpg" alt="Busca">
+        <br>
+        <a href="https://www.amazon.com.mx/Nights-Freddys-Escalofr%C3%ADos-Fazbear-Busca-ebook/dp/B09WJMV4Z2" target="_blank">Busca (2020)</a>
+        <!-- Descripción oculta -->
+        <div id="descripcion-busca" class="descripcion" style="display: none;">
+            Lectores, ¡cuidado!
+Estas tres terroríficas historias son suficientes para inquietar incluso a los más valientes y temerarios. Si eres fan de FiveNights atFreddy's no querrás perderte esta nueva entrega de la serie que te mantendrá despierto toda la noche.
+
+Después de años y años de ser tratados a patadas, Greg, Alec y Oscar están listos para tomar el control de sus vidas. Greg decide poner a prueba la controvertida ciencia que ha estado estudiando. Alec lanza un complot maestro para dejar en evidencia a su hermana como la mocosa malcriada que él sabe que es. Y Oscar, como el siempre adulto en miniatura que su madre necesita que sea, decide esta vez hacer algo que desea... aunque sabe que está mal.
+
+Los tres aprenderán que tener el control de sus vidas es algo frágil y difícil en el siniestro mundo de FiveNights atFreddy's.
+        </div>
+    </div>
+    <div class="libro">
+        <img id="libro-135" src="https://m.media-amazon.com/images/I/91E5ofSzmtL._UF894,1000_QL80_.jpg" alt="1:35">
+        <br>
+        <a href="https://www.amazon.com.mx/Five-Nights-Freddys-Escalofr%C3%ADos-Fazbear-ebook/dp/B0BWBPM9C5" target="_blank">1:35 (2020)</a>
+        <!-- Descripción oculta -->
+        <div id="descripcion-135" class="descripcion" style="display: none;">
+           Lectores, ¡cuidado!
+Estas tres terroríficas historias son suficientes para inquietar incluso a los más valientes y temerarios. Si eres fan de Five Nights at Freddy's no querrás perderte esta nueva entrega de la serie que te mantendrá despierto toda la noche.
+
+En este volumen, el maestro del terror Scott Cawthon teje tres siniestras historias cortas desde diferentes puntos del universo FNAF.
+
+En este mundo sorprendente, los deseos desesperados tienen un coste inesperado, las hermosas baratijas revelan poderes increíbles y las bromas inofensivas pueden salir mal de manera terrorífica.
+        </div>
+    </div>
+</div>
+<br> <br> <br>
+<div class="libros">
+    <!-- Segundo grupo de 3 libros -->
+    <div class="libro">
+        <img id="libro-step-closer" src="https://m.media-amazon.com/images/I/91gZj+TRjVL.jpg" alt="Step Closer">
+        <br>
+        <a href="https://www.amazon.com.mx/Step-Closer-Five-Nights-Freddys/dp/1338576054" target="_blank">Step Closer (2020)</a>
+        <!-- Descripción oculta -->
+        <div id="descripcion-step-closer" class="descripcion" style="display: none;">
+           La soledad puede abrir un vacío. Pete ataca a su hermano menor tras el divorcio de sus padres, cayendo en una espantosa maldición. Kasey lucha con las medidas que tomará para sobrevivir en las calles después de robar un par de inusuales gafas de novedad. Samantha y su hermana, Susie, luchan por coexistir juntas, desesperadas por conectarse después de una tragedia horrenda. Pero en el sombrío mundo de Five Nights at Freddy's, los sentimientos vacíos a menudo atraen monstruos hambrientos... En este cuarto volumen, el creador de Five Nights at Freddy's, Scott Cawthon, presenta tres siniestras historias en forma de novela corta desde diferentes rincones del canon de su serie, con arte de portada de la artista favorita de los fanáticos, LadyFiszi.
+Lectores, tengan cuidado: esta colección de aterradoras historias es suficiente para inquietar incluso a los fanáticos más curtidos de Five Nights at Freddy's.
+        </div>
+    </div>
+    <div class="libro">
+        <img id="libro-bunny-call" src="https://m.media-amazon.com/images/I/91ZDWBGKAoL.jpg" alt="Bunny Call">
+        <br>
+        <a href="https://www.amazon.com.mx/Bunny-Call-Five-Nights-Freddys/dp/1338576046" target="_blank">Bunny Call (2020)</a>
+        <!-- Descripción oculta -->
+        <div id="descripcion-bunny-call" class="descripcion" style="display: none;">
+            Cuando se deja en la oscuridad, la rabia fermenta. Años de frustración con su familia culminan en unas vacaciones detestables para Bob, quien trama una siniestra broma para asustar a su esposa e hijos. Matt redirige la ira residual de sus muchas relaciones fallidas hacia un videojuego, y termina dando lugar a horribles consecuencias. En la habitación 1280 del Hospital Heracles, algo maligno mantiene a un hombre vivo, un hombre con horribles quemaduras por todo su cuerpo y una voluntad de hierro para vivir. En este quinto volumen, el creador de Five Nights at Freddy's, Scott Cawthon, presenta tres siniestras historias en forma de novela corta desde diferentes rincones del canon de su serie, con arte de portada de la artista favorita de los fanáticos, LadyFiszi.
+Lectores, tengan cuidado: esta colección de aterradoras historias es suficiente para inquietar incluso a los fanáticos más curtidos de Five Nights at Freddy's.
+        </div>
+    </div>
+    <div class="libro">
+        <img id="libro-blackbird" src="https://m.media-amazon.com/images/I/915334maMyL.jpg" alt="Blackbird">
+        <br>
+        <a href="https://www.amazon.com.mx/Five-Nights-Freddys-Fazbear-Blackbird/dp/1338703897" target="_blank">Blackbird (2020)</a>
+        <!-- Descripción oculta -->
+        <div id="descripcion-blackbird" class="descripcion" style="display: none;">
+            Para evitar enfrentar una fea verdad, Nole cae presa de un monstruo que castiga transgresiones pasadas. Día a día, el pequeño Jake de nueve años se debilita, mientras mira atrás, recordando el tiempo antes de enfermar, imaginando la vida como si estuviera bien de nuevo. Y, desesperado por demostrar su valía a su arrogante hermano y distante padre, Toby persigue la victoria en un juego de arcade con consecuencias horribles. Pero en el impredecible mundo de Five Nights at Freddy's, a veces el pasado puede cobrar vida propia.
+
+En este sexto volumen, el creador de Five Nights at Freddy's, Scott Cawthon, presenta tres siniestras historias en forma de novela corta desde diferentes rincones del canon de su serie, con arte de portada de la artista favorita de los fanáticos, LadyFiszi.
+        </div>
+    </div>
+</div>
+<br> <br> <br>
+<div class="libros">
+    <!-- Tercer grupo de 3 libros -->
+    <div class="libro">
+        <img id="libro-the-cliffs" src="https://m.media-amazon.com/images/I/81IPZRVcmTL.jpg" alt="The Cliffs">
+        <br>
+        <a href="https://www.amazon.com.mx/Cliffs-Five-Nights-Freddys-Fazbear/dp/1338703919" target="_blank">The Cliffs (2021)</a>
+        <!-- Descripción oculta -->
+        <div id="descripcion-the-cliffs" class="descripcion" style="display: none;">
+            Los fanáticos de Five Nights at Freddy's no querrán perderse esta colección llena de suspenso con tres historias en forma de novela corta que mantendrán despiertos incluso a los jugadores más valientes de FNAF durante la noche...
+
+Algunas cosas deben aprenderse de la manera más difícil... Reed ve una oportunidad para enseñarle al matón de la escuela a no meterse con él, pero termina distorsionando la lección. Robert, un padre soltero agotado, recibe una lección acelerada sobre la paternidad cuando compra un elegante oso de peluche para vigilar y entretener a su pequeño hijo. Chris, ansioso por unirse al Club de Ciencias en la escuela, acepta someterse a un espantoso experimento para ser aceptado. Pero en el maligno universo de Five Nights at Freddy's, siempre hay una educación en el dolor.
+
+En este séptimo volumen, el creador de Five Nights at Freddy's, Scott Cawthon, presenta tres siniestras historias en forma de novela corta desde diferentes rincones del canon de su serie, con arte de portada de la artista favorita de los fanáticos, LadyFiszi.
+
+Lectores, tengan cuidado: Esta colección de aterradoras historias es suficiente para desconcertar incluso a los fanáticos más endurecidos de Five Nights at Freddy's.
+        </div>
+    </div>
+    <div class="libro">
+        <img id="libro-gumdrop-angel" src="https://m.media-amazon.com/images/I/81t+aoZj-BL._AC_UF1000,1000_QL80_.jpg" alt="Gumdrop Angel">
+        <br>
+        <a href="https://www.amazon.com.mx/Gumdrop-Angel-Five-Nights-Freddys-ebook/dp/B08P583PDN?_encoding=UTF8&qid=&sr=" target="_blank">Gumdrop Angel (2021)</a>
+        <!-- Descripción oculta -->
+        <div id="descripcion-gumdrop-angel" class="descripcion" style="display: none;">
+            Los fanáticos de Five Nights at Freddy's no querrán perderse esta colección llena de suspenso con tres historias en forma de novela corta que mantendrán despiertos incluso a los jugadores más valientes de FNAF durante la noche...
+
+Una racha de mala suerte de la que parece que no puedes deshacerte... para Angel, Hudson y Sergio, es un sentimiento demasiado familiar. Repugnada por la lujosa fiesta de cumpleaños de su consentida hermanastra, Angel ejecuta una venganza precipitada y desafortunada. La vida de Hudson está llena de tragedia y sueños rotos, pero un trabajo de seguridad bien remunerado podría ser justo lo que necesita para dar un giro a su vida. Sergio adquiere un juguete de novedad único que trae buena suerte al instante, pero, ¿realmente el juguete lo está llevando hacia la felicidad... o hacia un final más monstruoso?
+
+En este octavo volumen, el creador de Five Nights at Freddy's, Scott Cawthon, presenta tres siniestras historias en forma de novela corta desde diferentes rincones del canon de su serie, con arte de portada de la artista favorita de los fanáticos, LadyFiszi.
+
+Lectores, tengan cuidado: Esta colección de aterradoras historias es suficiente para desconcertar incluso a los fanáticos más endurecidos de Five Nights at Freddy's.
+        </div>
+    </div>
+    <div class="libro">
+        <img id="libro-puppet-carver" src="https://m.media-amazon.com/images/I/81tLqwgxzPS.jpg" alt="The Puppet Carver">
+        <br>
+        <a href="https://www.amazon.com.mx/Puppet-Carver-Five-Nights-Freddys/dp/1338739999" target="_blank">The Puppet Carver (2021)</a>
+        <!-- Descripción oculta -->
+        <div id="descripcion-puppet-carver" class="descripcion" style="display: none;">
+            Los fanáticos de Five Nights at Freddy's no querrán perderse esta colección llena de suspenso con tres historias en forma de novela corta que mantendrán despiertos incluso a los jugadores más valientes de FNAF durante la noche...
+
+Consumidos por el fracaso... Desesperado por evitar la quiebra de su pizzería para niños, Jack deja que su técnico de animatrónicos le presente una nueva invención que podría darle algo de perspectiva. Frustrado por un juego de arcade injusto, Colton se dedica a reingeniar el dispositivo a toda costa. La mejor amiga de Marley desaparece en un tour por la Freddy's Pizza Factory; ella sabe lo que realmente sucedió... pero su culpa no es lo único que amenaza con devorarla.
+
+En este noveno volumen, el creador de Five Nights at Freddy's, Scott Cawthon, presenta tres siniestras historias en forma de novela corta desde diferentes rincones del canon de su serie.
+
+Lectores, tengan cuidado: Esta colección de aterradoras historias es suficiente para desconcertar incluso a los fanáticos más endurecidos de Five Nights at Freddy's.
+        </div>
+    </div>
+</div>
+<br> <br> <br>
+<div class="libros">
+    <!-- Cuarto grupo de 3 libros -->
+    <div class="libro">
+        <img id="libro-friendly-face" src="https://m.media-amazon.com/images/I/71pe+EE+GES.jpg" alt="Friendly Face">
+        <br>
+        <a href="https://www.amazon.com.mx/Friendly-Face-Freddys-Fazbear-Frights/dp/1338741195" target="_blank">Friendly Face (2021)</a>
+        <!-- Descripción oculta -->
+        <div id="descripcion-friendly-face" class="descripcion" style="display: none;">
+            Los fanáticos de Five Nights at Freddy's no querrán perderse esta colección llena de suspenso con tres historias en forma de novela corta que mantendrán despiertos incluso a los jugadores más valientes de FNAF durante la noche...
+
+Actúa con prisa, arrepéntete con calma... Después de perder a su amigo en un terrible accidente, Edward no puede gastar su dinero lo suficientemente rápido en un compañero feliz que garantice mantener vivo el recuerdo de su amigo. Mott rápidamente tira a los nuevos y espeluznantes animales de su hermano, pero las criaturas tienen otros planes. Ansiosa por poner a sus compañeros de clase en su lugar, la reina de la fiesta de bienvenida, Jessica, no se detiene a revisar su tarea... reprogramando un animatrónico defectuoso.
+
+En este décimo volumen, el creador de Five Nights at Freddy's, Scott Cawthon, presenta tres siniestras historias en forma de novela corta desde diferentes rincones del canon de su serie.
+
+Lectores, tengan cuidado: Esta colección de aterradoras historias es suficiente para desconcertar incluso a los fanáticos más endurecidos de Five Nights at Freddy's.
+        </div>
+    </div>
+    <div class="libro">
+        <img id="libro-prankster" src="https://m.media-amazon.com/images/I/618CLHHmnZL.jpg" alt="Prankster">
+        <br>
+        <a href="https://www.amazon.com.mx/Five-Nights-At-FreddyS-Prankster/dp/9354712894" target="_blank">Prankster (2021)</a>
+        <!-- Descripción oculta -->
+        <div id="descripcion-prankster" class="descripcion" style="display: none;">
+            Los fanáticos de Five Nights at Freddy's no querrán perderse esta colección llena de suspenso con tres historias en forma de novela corta que mantendrán despiertos incluso a los jugadores más valientes de FNAF durante la noche...
+
+Defenderte a ti mismo puede ser difícil... Jeremiah decide que ya está harto de ser el blanco de las bromas de sus compañeros de trabajo en su pequeño estudio de videojuegos. Joel está contando los días hasta que pueda dejar el centro de jardinería de su familia y empezar una nueva vida en la carretera. Aimee finalmente encuentra el valor para dejar a su ruidosa y molesta amiga en Freddy Fazbear's Pizza. Pero cuando se trata de Five Nights at Freddy's, incluso las acciones más bien intencionadas pueden traer consecuencias horribles.
+
+En este undécimo volumen, el creador de Five Nights at Freddy's, Scott Cawthon, presenta tres siniestras historias en forma de novela corta desde diferentes rincones del canon de su serie.
+
+Lectores, tengan cuidado: Esta colección de aterradoras historias es suficiente para desconcertar incluso a los fanáticos más endurecidos de Five Nights at Freddy's.
+        </div>
+    </div>
+    <div class="libro">
+        <img id="libro-felix-shark" src="https://m.media-amazon.com/images/I/91SuqBHKgaL._UF894,1000_QL80_.jpg" alt="Felix the Shark">
+        <br>
+        <a href="https://www.amazon.com.mx/Felix-Shark-Freddys-Fazbear-Frights-ebook/dp/B09HRHT5BG" target="_blank">Felix the Shark (2022)</a>
+        <!-- Descripción oculta -->
+        <div id="descripcion-felix-shark" class="descripcion" style="display: none;">
+            No te pierdas esta emocionante colección de tres historias en formato de novela corta que mantendrán despiertos incluso a los jugadores más valientes durante la noche...
+
+Un puente oscuro al pasado... Dirk se embarca en una misión poco probable para recapturar un valioso recuerdo de la infancia en una pizzería de animatrónicos única. Mandy encuentra algo acechando en los archivos de su videojuego de terror favorito y se expone a un fantasma. Debido a la fascinación de su hijo con Freddy Fazbear’s Pizza, Sylvia le compra un regalo de cumpleaños único: una máscara de Freddy Fazbear que es el artículo genuino... en más de un sentido.
+
+En este duodécimo volumen, el creador de Five Nights at Freddy's, Scott Cawthon, presenta tres historias adicionales de formato de novela corta desde diferentes rincones del canon de su serie. Estas historias pudieron haber quedado fuera mientras se desarrollaba la serie Fazbear Frights, pero no traen menos terror en su narración.
+
+Lectores, tengan cuidado: Esta colección de aterradoras historias es suficiente para desconcertar incluso a los fanáticos más endurecidos de Five Nights at Freddy's.
+        </div>
+    </div>
+
+        </div>
     `;
 
     // Asignar el evento de clic a cada libro
     document.getElementById('libro-ojos-de-plata').addEventListener('click', function() {
         const descripcion = document.getElementById('descripcion-ojos-de-plata');
-        // Alternar entre mostrar/ocultar la descripción
         if (descripcion.style.display === "none" || descripcion.style.display === "") {
             descripcion.style.display = "block";
         } else {
@@ -419,7 +605,6 @@ Hay algo absolutamente retorcido que está a punto de atrapar a Charlie, y esta 
 
     document.getElementById('libro-otros-animatronicos').addEventListener('click', function() {
         const descripcion = document.getElementById('descripcion-otros-animatronicos');
-        // Alternar entre mostrar/ocultar la descripción
         if (descripcion.style.display === "none" || descripcion.style.display === "") {
             descripcion.style.display = "block";
         } else {
@@ -429,25 +614,143 @@ Hay algo absolutamente retorcido que está a punto de atrapar a Charlie, y esta 
 
     document.getElementById('libro-cuarto-armario').addEventListener('click', function() {
         const descripcion = document.getElementById('descripcion-cuarto-armario');
-        
         if (descripcion.style.display === "none" || descripcion.style.display === "") {
             descripcion.style.display = "block";
         } else {
             descripcion.style.display = "none";
         }
     });
+
+    // Generado automáticamente con los IDs del HTML proporcionado
+document.getElementById('libro-El-parque-de-bolas').addEventListener('click', function() {
+    const descripcion = document.getElementById('descripcion-parque-de-bolas');
+    if (descripcion.style.display === "none" || descripcion.style.display === "") {
+        descripcion.style.display = "block";
+    } else {
+        descripcion.style.display = "none";
+    }
+});
+
+document.getElementById('libro-busca').addEventListener('click', function() {
+    const descripcion = document.getElementById('descripcion-busca');
+    if (descripcion.style.display === "none" || descripcion.style.display === "") {
+        descripcion.style.display = "block";
+    } else {
+        descripcion.style.display = "none";
+    }
+});
+
+document.getElementById('libro-135').addEventListener('click', function() {
+    const descripcion = document.getElementById('descripcion-135');
+    if (descripcion.style.display === "none" || descripcion.style.display === "") {
+        descripcion.style.display = "block";
+    } else {
+        descripcion.style.display = "none";
+    }
+});
+
+document.getElementById('libro-step-closer').addEventListener('click', function() {
+    const descripcion = document.getElementById('descripcion-step-closer');
+    if (descripcion.style.display === "none" || descripcion.style.display === "") {
+        descripcion.style.display = "block";
+    } else {
+        descripcion.style.display = "none";
+    }
+});
+
+document.getElementById('libro-bunny-call').addEventListener('click', function() {
+    const descripcion = document.getElementById('descripcion-bunny-call');
+    if (descripcion.style.display === "none" || descripcion.style.display === "") {
+        descripcion.style.display = "block";
+    } else {
+        descripcion.style.display = "none";
+    }
+});
+
+document.getElementById('libro-blackbird').addEventListener('click', function() {
+    const descripcion = document.getElementById('descripcion-blackbird');
+    if (descripcion.style.display === "none" || descripcion.style.display === "") {
+        descripcion.style.display = "block";
+    } else {
+        descripcion.style.display = "none";
+    }
+});
+
+document.getElementById('libro-the-cliffs').addEventListener('click', function() {
+    const descripcion = document.getElementById('descripcion-the-cliffs');
+    if (descripcion.style.display === "none" || descripcion.style.display === "") {
+        descripcion.style.display = "block";
+    } else {
+        descripcion.style.display = "none";
+    }
+});
+
+document.getElementById('libro-gumdrop-angel').addEventListener('click', function() {
+    const descripcion = document.getElementById('descripcion-gumdrop-angel');
+    if (descripcion.style.display === "none" || descripcion.style.display === "") {
+        descripcion.style.display = "block";
+    } else {
+        descripcion.style.display = "none";
+    }
+});
+
+document.getElementById('libro-puppet-carver').addEventListener('click', function() {
+    const descripcion = document.getElementById('descripcion-puppet-carver');
+    if (descripcion.style.display === "none" || descripcion.style.display === "") {
+        descripcion.style.display = "block";
+    } else {
+        descripcion.style.display = "none";
+    }
+});
+
+document.getElementById('libro-friendly-face').addEventListener('click', function() {
+    const descripcion = document.getElementById('descripcion-friendly-face');
+    if (descripcion.style.display === "none" || descripcion.style.display === "") {
+        descripcion.style.display = "block";
+    } else {
+        descripcion.style.display = "none";
+    }
+});
+
+document.getElementById('libro-prankster').addEventListener('click', function() {
+    const descripcion = document.getElementById('descripcion-prankster');
+    if (descripcion.style.display === "none" || descripcion.style.display === "") {
+        descripcion.style.display = "block";
+    } else {
+        descripcion.style.display = "none";
+    }
+});
+
+document.getElementById('libro-felix-shark').addEventListener('click', function() {
+    const descripcion = document.getElementById('descripcion-felix-shark');
+    if (descripcion.style.display === "none" || descripcion.style.display === "") {
+        descripcion.style.display = "block";
+    } else {
+        descripcion.style.display = "none";
+    }
+});
+
 }
 
+
 // Función para mostrar la película
-function mostrarPelicula() {
-    document.getElementById("contenido").innerHTML = `
-        <h2>Película</h2>
-        <div class="pelicula">
-            <p>La película efectivamente es de FNAF, pero según el creador Scott Cawthon, esta tiene un lore semejante a los juegos, aunque lleva su propio camino.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/d-KsjQwwZlQ?si=6gw8zLmkML-jDYbM" frameborder="0" allowfullscreen></iframe>
-        </div>
-    `;
-}
+ function mostrarPelicula() {
+        document.getElementById("contenido").innerHTML = `
+            <h2>Película</h2>
+            <div class="pelicula">
+                <p>La película comienza con una escena aterradora en la que un guardia de seguridad está en su oficina, aterrado porque Freddy y los demás animatrónicos están a punto de atacarlo. Desesperado, quita los tornillos de la ventilación para escapar, pero en su intento es interceptado por Foxy, quien le da un susto que lo deja inconsciente. Cuando despierta, el guardia está atrapado en una máquina de tortura en la sala de partes y servicios. La máquina le coloca una máscara de Freddy llena de sierras y púas que se acercan lentamente hacia su rostro. A pesar de sus esfuerzos, el guardia no sobrevive.</p>
+                <p>En la introducción, vemos un dibujo de Spring Bonnie tomado de la mano de unos niños. Este detalle resulta clave más adelante en la trama. Después, se nos muestra un minijuego inspirado en los clásicos de Five Nights at Freddy's, donde William Afton se lleva a los niños a un lugar oculto para acabar con ellos, estableciendo el tono oscuro de la historia.</p>
+                <p>La trama principal da un salto temporal al 6 de abril del año 2000, donde conocemos a Mike Schmidt, un joven huérfano que vive con su hermana menor, Abby. Aunque su relación es complicada, Mike hace todo lo posible para cuidarla. Mike está atormentado por el secuestro de su hermano menor, Garrett, cuando era niño. Este recuerdo lo persigue constantemente, y sueña con poder recordar detalles clave del secuestrador.</p>
+                <p>Mike trabaja como guardia de seguridad en un centro comercial. Un día, ve a un niño que parece estar perdido y lo persigue, creyendo que el hombre que lo acompaña es el secuestrador. Tras atacarlo, descubre que el hombre era el padre del niño. Este incidente lo lleva a una reunión con un consejero vocacional, Steve Raglan, quien le ofrece un trabajo nocturno en Freddy Fazbear’s Pizza. Aunque al principio duda, Mike acepta debido a su necesidad de dinero.</p>
+                <p>Al día siguiente, Mike asiste a una reunión con la profesora de Abby y su tía Jane, quien está tratando de quitarle la custodia. Jane alega que Mike no puede cuidar de Abby, quien pasa el tiempo dibujando figuras de amigos imaginarios. Ante esta presión, Mike decide aceptar el trabajo en Freddy Fazbear’s Pizza.</p>
+                <p>En su primera noche, Mike no experimenta nada fuera de lo común, aparte de quedarse dormido. En sus sueños, vuelve a recordar el secuestro de su hermano y ve a cinco niños. Intenta hablar con ellos, pero huyen. Al día siguiente, Jane contrata a unos matones para destruir el restaurante y provocar el despido de Mike. Sin embargo, los animatrónicos defienden el lugar, atacando a los intrusos uno por uno. Incluso Max, la niñera de Abby, es víctima de Freddy cuando intenta investigar.</p>
+                <p>Abby descubre los papeles sobre su custodia, y Mike le promete que luchará para que no tenga que vivir con Jane. Esa noche, Mike lleva a Abby al restaurante. Mientras duerme, sueña nuevamente con los niños, quienes le ofrecen la oportunidad de reunirse con Garrett en sus sueños, pero a cambio debe entregarles a Abby. Mike se niega, lo que enfurece a los niños.</p>
+                <p>Por otro lado, William Afton, en su traje de Spring Bonnie, aparece como el antagonista principal. Tras una confrontación final en la que Vanessa revela que William es su padre y el responsable de los asesinatos, los animatrónicos se vuelven contra él. Abby utiliza sus dibujos para mostrar a los niños la verdad sobre William, provocando que lo atrapen y activen el mecanismo de springlock de su traje, sellando su destino.</p>
+                <p>Finalmente, Mike, Abby y Vanessa logran escapar del restaurante, mientras este colapsa. Los animatrónicos permanecen dentro, pero el legado de horror de Freddy Fazbear’s Pizza parece haber llegado a su fin… al menos por ahora.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/d-KsjQwwZlQ?si=6gw8zLmkML-jDYbM" frameborder="0" allowfullscreen></iframe>
+            </div>
+        `;
+    }
 
 // Función para mostrar la página de inicio
 function mostrarInicio() {
@@ -484,35 +787,311 @@ function mostrarMenuLateral() {
     menuLateral.innerHTML = `
         <h2>Orden cronológico para jugar la saga</h2>
         <ul>
-            <li><a href="#" onclick="mostrarSeguridad(); prevenirDesplazamiento(event)">Five Nights at Freddy's 4</a></li>
-            <li><a href="#" onclick="mostrarClientes(); prevenirDesplazamiento(event)">Five Nights at Freddy's 2</a></li>
-            <li><a href="#">Five Nights at Freddy's: Sister Location</a></li>
-            <li><a href="#">Five Nights at Freddy's</a></li>
-            <li><a href="#">Five Nights at Freddy's 3</a></li>
-            <li><a href="#">Freddy Fazbear's Pizzeria Simulator</a></li>
-            <li><a href="#">Five Nights at Freddy's: Help Wanted</a></li>
-            <li><a href="#">Five Nights at Freddy's Security Breach</a></li>
-            <li><a href="#">Five Nights at Freddy's: Special Delivery</a></li>
-            <li><a href="#">Five Nights at Freddy's: Help Wanted 2</a></li>
+            <li><a href="#" onclick="mostrarFnaf4(); prevenirDesplazamiento(event)">Five Nights at Freddy's 4</a></li>
+            <li><a href="#" onclick="mostrarFnaf2(); prevenirDesplazamiento(event)">Five Nights at Freddy's 2</a></li>
+            <li><a href="#" onclick="mostrarSisterLocation(); prevenirDesplazamiento(event)">Five Nights at Freddy's: Sister Location</a></li>
+            <li><a href="#" onclick="mostrarFnaf1(); prevenirDesplazamiento(event)">Five Nights at Freddy's</a></li>
+            <li><a href="#" onclick="mostrarFnaf3(); prevenirDesplazamiento(event)">Five Nights at Freddy's 3</a></li>
+            <li><a href="#" onclick="mostrarPizzeriaSimulator(); prevenirDesplazamiento(event)">Freddy Fazbear's Pizzeria Simulator</a></li>
+            <li><a href="#" onclick="mostrarHelpWanted(); prevenirDesplazamiento(event)">Five Nights at Freddy's: Help Wanted</a></li>
+            <li><a href="#" onclick="mostrarSecurityBreach(); prevenirDesplazamiento(event)">Five Nights at Freddy's Security Breach</a></li>
+            <li><a href="#" onclick="mostrarSpecialDelivery(); prevenirDesplazamiento(event)">Five Nights at Freddy's: Special Delivery</a></li>
+            <li><a href="#" onclick="mostrarHelpWanted2(); prevenirDesplazamiento(event)">Five Nights at Freddy's: Help Wanted 2</a></li>
         </ul>
     `;
 }
 
-// Función para mostrar la seguridad
-function mostrarSeguridad() {
+// Funciones para cada juego
+function mostrarFnaf4() {
     document.getElementById("contenido").innerHTML = `
-        <h2>Seguridad</h2>
-        <p style="font-size: 2em; color: green;">Texto de ejemplo</p>
+        <div style="text-align: center; font-family: Arial, sans-serif; color: white; background-color: #1b2838; padding: 20px; border-radius: 10px;">
+            <h2 style="color: #66c0f4;">Five Nights at Freddy's 4</h2>
+            <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/2/28/FNaF4_-_Portada.jpg/revision/latest?cb=20150722220108&path-prefix=es" 
+                 alt="Five Nights at Freddy's 4" 
+                 style="width: 300px; border: 5px solid #66c0f4; border-radius: 10px; margin-bottom: 20px;">
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+                En este último capítulo de la historia original de Five Nights at Freddy's, debes defenderte una vez más de Freddy Fazbear, Chica, Bonnie, Foxy e incluso cosas peores que acechan en las sombras. 
+                Jugando como un niño cuyo papel aún es desconocido, debes protegerte hasta las 6 a.m. vigilando las puertas y alejando a criaturas no deseadas que puedan aventurarse en tu armario o en la cama detrás de ti.
+            </p>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto; margin-top: 10px;">
+                Solo tienes una linterna para protegerte. Espantará a las cosas que puedan estar acechando al final de los pasillos, pero ten cuidado y escucha. Si algo se acerca demasiado, iluminar sus ojos será tu final.
+            </p>
+            <a href="https://store.steampowered.com/app/388090/Five_Nights_at_Freddys_4/?l=spanish" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" 
+                     alt="Steam Logo" 
+                     style="width: 100px; margin-top: 20px;">
+            </a>
+        </div>
     `;
 }
 
-// Función para mostrar los clientes
-function mostrarClientes() {
+
+function mostrarFnaf2() {
     document.getElementById("contenido").innerHTML = `
-        <h2>Clientes</h2>
-        <p style="font-size: 2em; color: red;">Texto de ejemplo</p>
+        <div style="text-align: center; font-family: Arial, sans-serif; color: white; background-color: #1b2838; padding: 20px; border-radius: 10px;">
+            <h2 style="color: #66c0f4;">Five Nights at Freddy's 4</h2>
+            <img src="https://products.eneba.games/resized-products/aYO0otc3TAjFMFywIWFm5900BdAb_DW_xS15eDFpqMU_350x200_1x-0.jpeg" 
+                 alt="Five Nights at Freddy's 2" 
+                 style="width: 200px; border: 5px solid #66c0f4; border-radius: 10px; margin-bottom: 20px;">
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+               ¡Bienvenido de nuevo a la nueva y mejorada Freddy Fazbear's Pizza!
+
+En Five Nights at Freddy's 2, los viejos y desgastados animatrónicos se unen a un nuevo elenco de personajes. Son aptos para niños, actualizados con lo último en tecnología de reconocimiento facial, conectados a bases de datos criminales locales y prometen ofrecer un espectáculo seguro y entretenido tanto para niños como para adultos.
+
+¿Qué podría salir mal?
+
+Como el nuevo guardia de seguridad trabajando en el turno nocturno, tu trabajo es monitorear las cámaras y asegurarte de que nada salga mal después del horario de atención. El guardia anterior se quejó de que los personajes intentaban entrar a la oficina (desde entonces lo han trasladado al turno diurno). Para facilitar tu trabajo, te han proporcionado tu propia cabeza vacía de Freddy Fazbear, que debería engañar a los personajes animatrónicos para que te dejen en paz si accidentalmente entran a tu oficina.
+            </p>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto; margin-top: 10px;">
+                Como siempre, Fazbear Entertainment no se hace responsable por muerte o desmembramiento.
+            </p>
+            <a href="https://store.steampowered.com/app/332800/Five_Nights_at_Freddys_2/?l=spanish" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" 
+                     alt="Steam Logo" 
+                     style="width: 100px; margin-top: 20px;">
+            </a>
+        </div>
     `;
 }
+
+function mostrarSisterLocation() {
+    document.getElementById("contenido").innerHTML = `
+        <div style="text-align: center; font-family: Arial, sans-serif; color: white; background-color: #1b2838; padding: 20px; border-radius: 10px;">
+            <h2 style="color: #66c0f4;">Five Nights at Freddy's 4</h2>
+            <img src="https://products.eneba.games/resized-products/mgZD0Cw_350x200_3x-0.jpg" 
+                 alt="Five Nights at Freddy's Sister Location" 
+                 style="width: 200px; border: 5px solid #66c0f4; border-radius: 10px; margin-bottom: 20px;">
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+             ¡Bienvenido a Circus Baby's Pizza World, donde la diversión familiar y la interactividad van más allá de cualquier cosa que hayas visto en otras pizzerías! Con animatrónicos de última generación que dejarán a tus hijos boquiabiertos, además de un servicio personalizado de catering de pizzas, ¡ninguna fiesta está completa sin Circus Baby y su equipo!
+            </p>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto; margin-top: 10px;">
+               Se busca: Técnico para turno nocturno.
+Requisitos: Disfrutar de espacios reducidos y sentirse cómodo cerca de maquinaria activa.
+No nos hacemos responsables por muerte o desmembramiento.
+            </p>
+            <a href="https://store.steampowered.com/app/506610/Five_Nights_at_Freddys_Sister_Location/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" 
+                     alt="Steam Logo" 
+                     style="width: 100px; margin-top: 20px;">
+            </a>
+        </div>
+    `;
+}
+
+function mostrarFnaf1() {
+     document.getElementById("contenido").innerHTML = `
+        <div style="text-align: center; font-family: Arial, sans-serif; color: white; background-color: #1b2838; padding: 20px; border-radius: 10px;">
+            <h2 style="color: #66c0f4;">Five Nights at Freddy's 4</h2>
+            <img src="https://products.eneba.games/resized-products/FUBYUoPAZ0zWxr2xvgZE2Wk0A8KvdJ7T8j8JkGvGTaI_350x200_3x-0.png" 
+                 alt="Five Nights at Freddy's " 
+                 style="width: 200px; border: 5px solid #66c0f4; border-radius: 10px; margin-bottom: 20px;">
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+                Bienvenido a tu nuevo trabajo de verano en Freddy Fazbear's Pizza, donde niños y padres vienen por entretenimiento y comida hasta donde alcanza la vista! La atracción principal es Freddy Fazbear, por supuesto, junto con sus dos amigos. Son robots animatrónicos programados para entretener a las multitudes. Sin embargo, el comportamiento de los robots se ha vuelto algo impredecible por las noches, y contratarte como guardia de seguridad fue mucho más barato que llamar a un técnico.
+            </p>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto; margin-top: 10px;">
+              Desde tu pequeña oficina, deberás vigilar cuidadosamente las cámaras de seguridad. Tienes una cantidad muy limitada de electricidad que se te permite usar cada noche (ya sabes, recortes de presupuesto corporativo). Eso significa que si te quedas sin energía durante la noche, ¡no habrá más puertas de seguridad ni luces! Si algo no está bien, es decir, si Freddy Fazbear o sus amigos no están en sus lugares correspondientes, deberás localizarlos en los monitores y protegerte si es necesario.
+
+¿Podrás sobrevivir cinco noches en Freddy's?
+            </p>
+            <a href="https://store.steampowered.com/app/319510/Five_Nights_at_Freddys/?l=spanish" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" 
+                     alt="Steam Logo" 
+                     style="width: 100px; margin-top: 20px;">
+            </a>
+        </div>
+    `;
+}
+
+function mostrarFnaf3() {
+    document.getElementById("contenido").innerHTML = `
+        <div style="text-align: center; font-family: Arial, sans-serif; color: white; background-color: #1b2838; padding: 20px; border-radius: 10px;">
+            <h2 style="color: #66c0f4;">Five Nights at Freddy's 4</h2>
+            <img src="https://cdn2.steamgriddb.com/grid/42763705844bf5e2af4abd6c898f8dcb.png" 
+                 alt="Five Nights at Freddy's 3" 
+                 style="width: 200px; border: 5px solid #66c0f4; border-radius: 10px; margin-bottom: 20px;">
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+                Treinta años después de que Freddy Fazbear's Pizza cerrara sus puertas, los eventos que ocurrieron allí se han convertido en poco más que un rumor y un recuerdo de infancia. Sin embargo, los dueños de "Fazbear's Fright: The Horror Attraction" están decididos a revivir la leyenda y hacer que la experiencia sea lo más auténtica posible para los visitantes, esforzándose al máximo por encontrar cualquier cosa que haya sobrevivido a décadas de abandono y ruina.
+            </p>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto; margin-top: 10px;">
+              Al principio, solo había cascarones vacíos, una mano, un gancho, una vieja figura de papel, pero entonces se hizo un descubrimiento extraordinario...
+
+La atracción ahora tiene un animatrónico.
+            </p>
+            <a href="https://store.steampowered.com/app/354140/Five_Nights_at_Freddys_3/?l=spanish" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" 
+                     alt="Steam Logo" 
+                     style="width: 100px; margin-top: 20px;">
+            </a>
+        </div>
+    `;
+}
+
+function mostrarPizzeriaSimulator() {
+    document.getElementById("contenido").innerHTML = `
+        <div style="text-align: center; font-family: Arial, sans-serif; color: white; background-color: #1b2838; padding: 20px; border-radius: 10px;">
+            <h2 style="color: #66c0f4;">Five Nights at Freddy's 4</h2>
+            <img src="https://cdn2.steamgriddb.com/grid/5f9f76d679371d223deeda050bdc9d85.png" 
+                 alt="Freddy Fazbear's Pizzeria Simulator " 
+                 style="width: 200px; border: 5px solid #66c0f4; border-radius: 10px; margin-bottom: 20px;">
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+                ¡Presentando una divertida aventura de Five Nights at Freddy's con un toque más ligero para las fiestas! Freddy Fazbear's Pizzeria Simulator te pone a cargo de desarrollar tu propio restaurante. ¡Diseña pizzas, alimenta a los niños y obtén puntuaciones altas! 🎉🍕
+            </p>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto; margin-top: 10px;">
+             
+            </p>
+            <a href="https://store.steampowered.com/app/738060/Freddy_Fazbears_Pizzeria_Simulator/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" 
+                     alt="Steam Logo" 
+                     style="width: 100px; margin-top: 20px;">
+            </a>
+        </div>
+    `;
+}
+
+
+function mostrarHelpWanted() {
+    document.getElementById("contenido").innerHTML = `
+        <div style="text-align: center; font-family: Arial, sans-serif; color: white; background-color: #1b2838; padding: 20px; border-radius: 10px;">
+            <h2 style="color: #66c0f4;">Five Nights at Freddy's: Help Wanted</h2>
+            <img 
+                src="https://cdn2.steamgriddb.com/thumb/e14916e8b73c34340b1c223fc6f5cbea.jpg" 
+                alt="Freddy Fazbear's Help Wanted" 
+                style="width: 200px; border: 5px solid #66c0f4; border-radius: 10px; margin-bottom: 20px;"
+            >
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+                Five Nights at Freddy’s: Help Wanted es una colección de mini-juegos clásicos y originales ambientados en el universo de Five Nights. Sobrevive a encuentros terroríficos con tus animatrónicos asesinos favoritos en una mezcla de experiencias nuevas y clásicas de FIVE NIGHTS AT FREDDY’S™.  
+                <strong>“¡Donde la fantasía y la diversión cobran vida!”</strong>
+            </p>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto; margin-top: 10px;">
+                🌟 <strong>No necesitas un visor de realidad virtual para jugar.</strong> 🌟
+            </p>
+            <h3 style="color: #66c0f4;">¡ESTÁS CONTRATADO!</h3>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+                Es hora de ensuciarte las manos. Repara sistemas de ventilación claustrofóbicos, resuelve problemas con animatrónicos que podrían activarse en cualquier momento o pasa tus noches escondiéndote en la oficina del guardia de seguridad nocturno.
+            </p>
+            <h3 style="color: #66c0f4;">¡CELEBRA!</h3>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+                Enfréntate a tus animatrónicos asesinos favoritos, incluyendo: Freddy, Bonnie, Chica, Foxy, Springtrap, The Mangle, Funtime Foxy y Circus Baby.
+            </p>
+            <h3 style="color: #66c0f4;">¡PREMIOS DIVERTIDOS!</h3>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+                Juguetes, peluches, cabezas bamboleantes y ¡dulces, dulces, dulces! Gana premios súper divertidos para jugar en el interactivo mostrador de premios. ¡Recoge Faz-Tokens bien ocultos para desbloquear coleccionables raros y aún más diversión!
+            </p>
+            <h3 style="color: #66c0f4;">FIESTA DE PIZZA</h3>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+                Escenas de los títulos clásicos han sido actualizadas y recreadas para una experiencia completamente inmersiva, incluyendo:  
+                <ul style="list-style: none; padding: 0; margin: 10px 0; text-align: left;">
+                    <li>🎮 Five Nights at Freddy’s</li>
+                    <li>🎮 Five Nights at Freddy’s 2</li>
+                    <li>🎮 Five Nights at Freddy’s 3</li>
+                    <li>🎮 Five Nights at Freddy’s 4</li>
+                    <li>🎮 Five Nights at Freddy’s: Sister Location</li>
+                </ul>
+                <strong>DOS FORMAS DE JUGAR:</strong> Vive el terror en modo plano (sin VR) o en VR. Compatible con Oculus Rift y HTC Vive.
+            </p>
+            <a href="https://store.steampowered.com/app/732690/FIVE_NIGHTS_AT_FREDDYS_HELP_WANTED/" target="_blank">
+                <img 
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" 
+                    alt="Steam Logo" 
+                    style="width: 100px; margin-top: 20px;"
+                >
+            </a>
+        </div>
+    `;
+}
+
+
+
+function mostrarSecurityBreach() {
+    document.getElementById("contenido").innerHTML = `
+        <div style="text-align: center; font-family: Arial, sans-serif; color: white; background-color: #1b2838; padding: 20px; border-radius: 10px;">
+            <h2 style="color: #66c0f4;">Five Nights at Freddy's: Security Breach</h2>
+            <img 
+                src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/747660/capsule_616x353.jpg?t=1686587905" 
+                alt="Freddy Fazbear's Security Breach" 
+                style="width: 400px; border: 5px solid #66c0f4; border-radius: 10px; margin-bottom: 20px;">
+            
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+                <strong>SIGUIENTE CAPÍTULO DEL HORROR</strong>
+                <br><br>
+                Five Nights at Freddy's: Security Breach es la nueva entrega de la saga de juegos de terror para toda la familia que ha cautivado a millones de jugadores de todo el mundo. Juega como Gregory, un joven que pasa la noche atrapado en Freddy Fazbear's Mega Pizzaplex. Con la ayuda del mismísimo Freddy Fazbear, Gregory debe sobrevivir a la inagotable cacería de las nuevas versiones de los personajes de Five Nights at Freddy's y a una serie de amenazas terroríficas.
+            </p>
+            
+            <h3 style="color: #66c0f4;">LOS CAZADORES Y LA PRESA</h3>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+                Nada más iniciarse el protocolo de noche, los animatrónicos de Freddy Fazbear's Mega Pizzaplex empezarán a perseguir incansablemente a los intrusos. Glamrock Chica, Roxanne Wolf, Montgomery Gator y la guardia de seguridad de Pizzaplex, Vanessa, removerán hasta el último puesto de algodón de azúcar si es necesario: permanecer en el mismo lugar demasiado tiempo no es seguro.
+            </p>
+            
+            <h3 style="color: #66c0f4;">SUPERVIVENCIA ADAPTATIVA</h3>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+                Accede a las cámaras de seguridad del edificio para vigilar el entorno y planea tu ruta para atravesar el peligro. Tira latas de pintura y juguetes para distraer a los enemigos y escápate a hurtadillas antes de que lleguen a tu posición. Busca un escondite y espera a que el peligro pase, o intenta huir de tus perseguidores. Juega a tu manera, pero prepárate para tener que adaptarte.
+            </p>
+            
+            <h3 style="color: #66c0f4;">EXPLORA Y DESCUBRE</h3>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+                Freddy Fazbear's Mega Pizzaplex ofrece una variedad de atracciones a sus visitantes: Monty Golf, Roxy Raceway, Bonnie Bowl, las alcantarillas y... espera, ¿las alcantarillas? El Pizzaplex es enorme y está lleno de tesoros que descubrir.
+            </p>
+            
+            <a href="https://store.steampowered.com/app/747660/Five_Nights_at_Freddys_Security_Breach/" target="_blank">
+                <img 
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" 
+                    alt="Steam Logo" 
+                    style="width: 100px; margin-top: 20px;">
+            </a>
+        </div>
+    `;
+}
+
+
+function mostrarSpecialDelivery() {
+    document.getElementById("contenido").innerHTML = `
+        <div style="text-align: center; font-family: Arial, sans-serif; color: white; background-color: #1b2838; padding: 20px; border-radius: 10px;">
+            <h2 style="color: #66c0f4;">Five Nights at Freddy's Special Delivery</h2>
+            <img src="https://img.utdstc.com/icon/633/d27/633d27ed3b91699100b81f8e8a5afbe1cc7a8a1dcd2890e2d3a168445acbc16d:200" 
+                 alt="Five Nights at Freddy's Special Delivery " 
+                 style="width: 200px; border: 5px solid #66c0f4; border-radius: 10px; margin-bottom: 20px;">
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+            ¡Bienvenido a Five Nights at Freddy's: Special Delivery! En este emocionante y aterrador juego de realidad aumentada, recibirás en tu puerta animatrónicos de Freddy Fazbear's Mega Pizzaplex, ahora convertidos en versiones aún más mortales. A través de tu teléfono móvil, deberás defenderte de estos robots que invaden tu hogar, usando una serie de herramientas y técnicas innovadoras. Pero, ¿quién está detrás de todo esto?
+
+El Módulo Animstealth, una tecnología avanzada que hace que los animatrónicos sean invisibles a simple vista, se encuentra en el centro de la historia. Los robots que aparecen en tu pantalla son más reales de lo que piensas, ya que en este juego no solo te enfrentas a una simulación, sino a criaturas que realmente están siendo enviadas a tu puerta. Mientras intentas sobrevivir, te das cuenta de que algo más oscuro está en juego: Glitchtrap, el malicioso virus que se apoderó de las mentes de los personajes, está detrás de todo.
+            </p>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto; margin-top: 10px;">
+             En FNAF: Special Delivery, los jugadores deben mantenerse alerta mientras enfrentan a personajes como Chocolate Bonnie y Firework Freddy, entre otros animatrónicos. ¡Tendrás que usar tus reflejos y tu ingenio para sobrevivir a sus ataques y descubrir la verdad detrás de esta extraña entrega!
+            </p>
+          
+        </div>
+    `;
+}
+
+function mostrarHelpWanted2() {
+    document.getElementById("contenido").innerHTML = `
+        <div style="text-align: center; font-family: Arial, sans-serif; color: white; background-color: #1b2838; padding: 20px; border-radius: 10px;">
+            <h2 style="color: #66c0f4;">Five Nights at Freddy's help wanted 2</h2>
+            <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/0/02/FNaF_HW_2_cover_artwork.jpeg/revision/latest?cb=20231201232056&path-prefix=es" 
+                 alt="Five Nights at Freddy's help wanted 2 " 
+                 style="width: 200px; border: 5px solid #66c0f4; border-radius: 10px; margin-bottom: 20px;">
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto;">
+            ¡Bienvenido a Five Nights at Freddy's: Special Delivery! En este emocionante y aterrador juego de realidad aumentada, recibirás en tu puerta animatrónicos de Freddy Fazbear's Mega Pizzaplex, ahora convertidos en versiones aún más mortales. A través de tu teléfono móvil, deberás defenderte de estos robots que invaden tu hogar, usando una serie de herramientas y técnicas innovadoras. Pero, ¿quién está detrás de todo esto?
+
+El Módulo Animstealth, una tecnología avanzada que hace que los animatrónicos sean invisibles a simple vista, se encuentra en el centro de la historia. Los robots que aparecen en tu pantalla son más reales de lo que piensas, ya que en este juego no solo te enfrentas a una simulación, sino a criaturas que realmente están siendo enviadas a tu puerta. Mientras intentas sobrevivir, te das cuenta de que algo más oscuro está en juego: Glitchtrap, el malicioso virus que se apoderó de las mentes de los personajes, está detrás de todo.
+            </p>
+            <p style="font-size: 1.2em; color: #c6d4df; max-width: 800px; margin: auto; margin-top: 10px;">
+             En FNAF: Special Delivery, los jugadores deben mantenerse alerta mientras enfrentan a personajes como Chocolate Bonnie y Firework Freddy, entre otros animatrónicos. ¡Tendrás que usar tus reflejos y tu ingenio para sobrevivir a sus ataques y descubrir la verdad detrás de esta extraña entrega!
+            </p>
+
+            <a href="https://store.steampowered.com/app/2287520/Five_Nights_at_Freddys_Help_Wanted_2/?l=spanish" target="_blank">
+                <img 
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" 
+                    alt="Steam Logo" 
+                    style="width: 100px; margin-top: 20px;">
+            </a>
+          
+        </div>
+    `;
+}
+
+
+
 
 // Prevenir el desplazamiento al hacer clic en los enlaces del menú
 function prevenirDesplazamiento(event) {

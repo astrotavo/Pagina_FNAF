@@ -33,7 +33,7 @@
             background-color: #000;
             color: #fff;
             line-height: 1.6;
-            background-image: url('imagenes/fondo_terror.jpg');
+            background-image: url('../imagenes/fondo.jpeg');
             background-size: cover;
             background-attachment: fixed;
         }
@@ -70,7 +70,7 @@
         .contenido-seccion {
             display: flex;
             flex-direction: column;
-            background-image: url('https://static.wikia.nocookie.net/pizzaria-freddy-fazbear/images/d/d1/Party_Room_1.png/revision/latest?cb=20150919013554&path-prefix=pt-br');
+            background-image: url('../imagenes/fondo.jpeg');
             background-size: auto;
             background-repeat: repeat;
             background-position: top left;
@@ -124,43 +124,45 @@
 
     <script>
         function mostrarHistoria() {
-            document.getElementById("contenido").innerHTML = ` 
-                <div class="contenido-seccion">
-                    <div class="seccion">
-                        <div class="texto-seccion">
-                            <h3>Apariencia</h3>
-                            <p>En los recuerdos de Charlie, se le ve usando muchas camisas de franela. Al ver que su cuerpo puede caber perfectamente dentro de Fredbear, se puede suponer que es alto.</p>
-                            <p>En las adaptaciones gráficas de las novelas, Henry es representado con cabello castaño y vistiendo una camisa de franela de color claro junto con pantalones oscuros.</p>
-                            <p>Sin embargo, en los juegos Henry no se ve ni se describe. Él, al igual que el Chico del Teléfono, es representado con un reproductor de casetes. En <i>Five Nights at Freddy's Character Encyclopedia</i> e <i>Into the Pit</i>, Henry tiene cabello rubio y barba, usa anteojos, una camisa a cuadros naranja, un overol de mezclilla azul y zapatos marrones.</p>
-                        </div>
-                        <div class="imagen-seccion">
-                            <img src="https://static.wikia.nocookie.net/fnaf-the-spanish-novels/images/a/a0/Henry_Emily.png/revision/latest?cb=20220213235812&path-prefix=es" alt="Henry" style="width: 200px; height: auto;">
-                            <a>Henry</a>
-                        </div>
-                    </div>
-
-                    <div class="seccion">
-                        <div class="texto-seccion">
-                            <h3>Personalidad</h3>
-                            <h4>Juegos</h4>
-                            <p>En los juegos, Henry es un hombre de voz bastante suave, como lo demuestran sus grabaciones. Rara vez expresa algún indicio de emoción, excepto por condenar a William seguido de sentimentalismo cuando habla con su hija Charlotte en el Final Bueno, así como la decepción durante el Final Malo. También se muestra un poco dramático al hablar, debido a la gravedad de su situación.</p>
-                            <p>En sus monólogos durante el Final Locura, se muestra que Henry es un hombre roto por dentro que se arrepiente inmensamente de todo lo que, sin saberlo, permitió que Afton hiciera. También se muestra que extraña profundamente a su hija y se arrepiente de no poder salvarla. Todos estos factores llevaron a Henry al punto en que quería suicidarse por arrepentimiento. Sin embargo, parece tener una voluntad fuerte, ya que se negó a morir hasta que intentó matar a William para ayudar a que las almas de los niños finalmente puedan descansar.</p>
-
-                            <h4>Novelas</h4>
-                            <p>No se sabe mucho sobre Henry, sin embargo, se sabe que se enorgullecía de su trabajo y era un genio mecánico. Henry tenía un profundo amor por su hija Charlie y usó sus habilidades para crear juguetes mecánicos para ella, como Theodoro, Stanley y Ella.</p>
-                            <p>Se reveló que Henry estaba en duelo y había alcanzado un nivel de dolor, desesperación y agonía, evidenciado por su nota de suicidio a su hermana y los "recuerdos" de Charlotte en <i>The Fourth Closet</i>. Parecía aislado y terriblemente solo en su dolor que parecía desconectado de la realidad. Clay Burke observó que a menudo estaba tan absorto en su trabajo y que había algo extraño en él, "casi conmocionado", lo describió como agradable, pero terriblemente solo, con su dolor incluso visible a la distancia.</p>
-                        </div>
-                        <div class="imagen-seccion">
-                            <a href="Henry’s Speech.html" target="_blank" onclick="mostrarLlamas(event)">
-    <img id="henryImg" src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/5/56/IBaa46p.jpg/revision/latest/scale-to-width-down/250?cb=20200119223922&path-prefix=es" style="width: 300px; height: auto;">
-    <img id="llamasGif" src="https://i.pinimg.com/originals/b7/21/34/b72134112b54864e4948865375ecbb11.gif" style="display: none; position: absolute; top: 0; left: 0;">
-</a>
-
-                        </div>
-                    </div>
+    document.getElementById("contenido").innerHTML = ` 
+        <div class="contenido-seccion">
+            <div class="seccion">
+                <div class="texto-seccion">
+                    <h3>Apariencia</h3>
+                    <p>En los recuerdos de Charlie, se le ve usando muchas camisas de franela. Al ver que su cuerpo puede caber perfectamente dentro de Fredbear, se puede suponer que es alto.</p>
+                    <p>En las adaptaciones gráficas de las novelas, Henry es representado con cabello castaño y vistiendo una camisa de franela de color claro junto con pantalones oscuros.</p>
+                    <p>Sin embargo, en los juegos Henry no se ve ni se describe. Él, al igual que el Chico del Teléfono, es representado con un reproductor de casetes. En <i>Five Nights at Freddy's Character Encyclopedia</i> e <i>Into the Pit</i>, Henry tiene cabello rubio y barba, usa anteojos, una camisa a cuadros naranja, un overol de mezclilla azul y zapatos marrones.</p>
                 </div>
-            `;
-        }
+                <div class="imagen-seccion">
+                    <img src="../imagenes/henry.jpg" style="width: 200px; height: auto;">
+                    <p style="text-align: center; color: white;">Henry</p>
+                </div>
+            </div>
+
+            <div class="seccion">
+                <div class="texto-seccion">
+                    <h3>Personalidad</h3>
+                    <h4>Juegos</h4>
+                    <p>En los juegos, Henry es un hombre de voz bastante suave, como lo demuestran sus grabaciones. Rara vez expresa algún indicio de emoción, excepto por condenar a William seguido de sentimentalismo cuando habla con su hija Charlotte en el Final Bueno, así como la decepción durante el Final Malo. También se muestra un poco dramático al hablar, debido a la gravedad de su situación.</p>
+                    <p>En sus monólogos durante el Final Locura, se muestra que Henry es un hombre roto por dentro que se arrepiente inmensamente de todo lo que, sin saberlo, permitió que Afton hiciera. También se muestra que extraña profundamente a su hija y se arrepiente de no poder salvarla. Todos estos factores llevaron a Henry al punto en que quería suicidarse por arrepentimiento. Sin embargo, parece tener una voluntad fuerte, ya que se negó a morir hasta que intentó matar a William para ayudar a que las almas de los niños finalmente puedan descansar.</p>
+
+                    <h4>Novelas</h4>
+                    <p>No se sabe mucho sobre Henry, sin embargo, se sabe que se enorgullecía de su trabajo y era un genio mecánico. Henry tenía un profundo amor por su hija Charlie y usó sus habilidades para crear juguetes mecánicos para ella, como Theodoro, Stanley y Ella.</p>
+                    <p>Se reveló que Henry estaba en duelo y había alcanzado un nivel de dolor, desesperación y agonía, evidenciado por su nota de suicidio a su hermana y los "recuerdos" de Charlotte en <i>The Fourth Closet</i>. Parecía aislado y terriblemente solo en su dolor que parecía desconectado de la realidad. Clay Burke observó que a menudo estaba tan absorto en su trabajo y que había algo extraño en él, "casi conmocionado", lo describió como agradable, pero terriblemente solo, con su dolor incluso visible a la distancia.</p>
+                </div>
+                <div class="imagen-seccion" style="position: relative; display: inline-block;">
+                    <a href="Henry’s Speech.html" target="_blank" onclick="mostrarLlamas(event)">
+                        <img id="henryImg" src="../imagenes/henry2.jpg" style="width: 300px; height: auto;">
+                        <img id="llamasGif" src="https://i.pinimg.com/originals/b7/21/34/b72134112b54864e4948865375ecbb11.gif" 
+                             style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+
 	
 
         // Función para mostrar las llamas y luego redirigir

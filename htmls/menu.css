@@ -9,7 +9,7 @@ body {
     background-color: #000;
     color: #fff;
     line-height: 1.6;
-    background-image: url('https://static.wikia.nocookie.net/pizzaria-freddy-fazbear/images/d/d1/Party_Room_1.png/revision/latest?cb=20150919013554&path-prefix=pt-br');
+    background-image: url('../images/fondo.jpeg');
     background-size: cover;
     background-attachment: fixed; /* Fondo fijo al desplazarse */
 }
@@ -141,6 +141,7 @@ article h2 {
     width: 150px;
     height: auto;
 }
+
 
 footer {
     background-color: #600000;
