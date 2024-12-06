@@ -1,7 +1,11 @@
 function mostrarHistoria() {
     document.getElementById("contenido").innerHTML = `
         <h2>Historia del Local</h2>
-        <iframe width="0" height="0" src="https://www.youtube.com/embed/3xotxtnAxiM?autoplay=1&mute=0&controls=0&loop=1" frameborder="0" allow="autoplay"></iframe>
+     <!-- El iframe sigue presente pero está oculto -->
+        <iframe id="youtube-video" style="display: none;" src="https://www.youtube.com/embed/3xotxtnAxiM?autoplay=1&mute=0&controls=0&loop=1&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+        
+        <!-- Botón para pausar/reanudar el video -->
+        <button id="toggle-play">Pausar</button>
 
         <div style="display: flex; flex-direction: column; background-image: url('imagenes/fondo.jpg'); background-size: auto; background-repeat: repeat; background-position: top left; padding: 20px; color: white; background-color: rgba(0, 0, 0, 0.5);">
             
@@ -18,7 +22,7 @@ function mostrarHistoria() {
 
 
         <br>
-        <a href="htmls/william.html" target="_blank">William Afton</a>
+        <a href="htmls/william.html" >William Afton</a>
     </div>
 </div>
 
@@ -31,7 +35,7 @@ function mostrarHistoria() {
     <div style="flex: 0 0 200px; margin-left: 20px;">
         <img src="imagenes/henry.jpg" style="width: 100%; height: auto;">
         <br>
-        <a href="htmls/henry.html" target="_blank">Henry</a>
+        <a href="htmls/henry.html">Henry</a>
     </div>
 </div>
 
@@ -44,7 +48,7 @@ function mostrarHistoria() {
     <div style="flex: 0 0 200px; margin-left: 20px; text-align: center;">
         <img src="imagenes/charlie.png" style="width: 200px; height: auto;">
         <br>
-        <a href="htmls/charlie.html" target="_blank">Charlie</a>
+        <a href="htmls/charlie.html" >Charlie</a>
     </div>
 </div>
 
@@ -59,7 +63,7 @@ function mostrarHistoria() {
     <div style="flex: 0 0 200px; margin-left: 20px;">
         <img src="imagenes/Fredbear Family Dinner.jpg" style="width: 100%; height: auto;">
         <br>
-        <a href="htmls/fredbear.html" target="_blank">Fredbear Family Dinner</a>
+        <a href="htmls/fredbear.html" >Fredbear Family Dinner</a>
     </div>
 </div>
 
@@ -72,7 +76,7 @@ function mostrarHistoria() {
     <div style="flex: 0 0 200px; margin-left: 20px;">
         <img src="https://i.pinimg.com/originals/bf/80/87/bf8087e60128ac3e0897eaaabd2d7330.png" style="width: 100%; height: auto;">
         <br>
-        <a href="htmls/baby.html" target="_blank">Circus Baby Pizza World</a>
+        <a href="htmls/baby.html" >Circus Baby Pizza World</a>
     </div>
 
 
@@ -108,7 +112,7 @@ function mostrarHistoria() {
     <div style="flex: 0 0 200px; margin-left: 20px;">
         <img src="imagenes/cryingchild.png" style="width: 100px; height: auto;">
         <br>
-        <a href="htmls/crying_child.html" target="_blank">Crying Child</a>
+        <a href="htmls/crying_child.html" >Crying Child</a>
     </div>
 </div>
 
@@ -132,7 +136,7 @@ function mostrarHistoria() {
     <div style="flex: 0 0 200px; margin-left: 20px;">
         <img src="https://media.tenor.com/WDXfU69s0usAAAAj/michael-afton-fnaf.gif" style="width: 100%; height: auto;">
         <br>
-        <a href="htmls/aftom.html" target="_blank">Mike aftom</a>
+        <a href="htmls/aftom.html" >Mike aftom</a>
     </div>
 </div>
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
@@ -145,7 +149,7 @@ function mostrarHistoria() {
        <img src="imagenes/elizabethafton.png" style="width: 100px; height: auto;">
 
         <br>
-        <a href="htmls/elizabeth.html" target="_blank">Elizabeth Afton</a>
+        <a href="htmls/elizabeth.html" >Elizabeth Afton</a>
     </div>
 </div>
 	<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
@@ -157,7 +161,7 @@ function mostrarHistoria() {
     <div style="flex: 0 0 200px; margin-left: 20px;">
         <img src="https://media.tenor.com/Bel_pabDQMgAAAAM/sa.gif"style="width: 200px; height: auto;">
         <br>
-        <a href="htmls/puppet.html" target="_blank">Puppet</a>
+        <a href="htmls/puppet.html" >Puppet</a>
     </div>
 </div>
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
@@ -189,7 +193,7 @@ function mostrarHistoria() {
   <div style="flex: 0 0 200px; margin-left: 20px;">
     <img src="imagenes/ennard.png" style="width: 100%; height: auto;">
     <br>
-    <a href="htmls/ennard.html" target="_blank">Ennard</a>
+    <a href="htmls/ennard.html" >Ennard</a>
   </div>
 </div>
 
@@ -203,7 +207,7 @@ function mostrarHistoria() {
   <div style="flex: 0 0 200px; margin-left: 20px;">
     <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a66c6fd-8f46-4bef-81c9-378a021b9a21/dg3atvz-76164849-c77a-4ec1-98ac-6d99c2afda88.png/v1/fill/w_355,h_347/fnaf___fazbear_entertainment_logo_by_underscoreyt_dg3atvz-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzQ3IiwicGF0aCI6IlwvZlwvN2E2NmM2ZmQtOGY0Ni00YmVmLTgxYzktMzc4YTAyMWI5YTIxXC9kZzNhdHZ6LTc2MTY0ODQ5LWM3N2EtNGVjMS05OGFjLTZkOTljMmFmZGE4OC5wbmciLCJ3aWR0aCI6Ijw9MzU1In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.uxfROGijmi4vDofUNL8kJYrYj-2TN3XSYxe8Dxj4F38" style="width: 100%; height: auto;">
     <br>
-    <a href="htmls/fazbearentertainment.html" target="_blank">Fazbear Entertainment</a>
+    <a href="htmls/fazbearentertainment.html" >Fazbear Entertainment</a>
   </div>
 </div>
 
@@ -227,7 +231,7 @@ function mostrarHistoria() {
   <div style="flex: 0 0 200px; margin-left: 20px;">
     <img src="imagenes/phoneguy.png" style="width: 200px; height: auto;">
     <br>
-    <a href="htmls/phoneguy.html" target="_blank">Phone Guy</a>
+    <a href="htmls/phoneguy.html" >Phone Guy</a>
   </div>
 </div>
 
@@ -295,7 +299,7 @@ function mostrarHistoria() {
   <div style="flex: 0 0 200px; margin-left: 20px;">
     <img src="https://preview.redd.it/tvj1et7ybo2c1.jpg?auto=webp&s=c000c1ae7dec47150211bc01fb2358d1cda9a572" style="width: 100%; height: auto;">
     <br>
-    <a href="htmls/cassidy.html" target="_blank">Cassidy</a>
+    <a href="htmls/cassidy.html" >Cassidy</a>
   </div>
 </div>
 
@@ -319,7 +323,7 @@ function mostrarHistoria() {
   <div style="flex: 0 0 200px; margin-left: 20px;">
     <img src="https://i.pinimg.com/originals/84/f3/e3/84f3e3b675fea90178f6ddfaab320576.gif" style="width: 200px; height: auto;">
     <br>
-    <a href="htmls/goldenfreddy.html" target="_blank">Cassidy / Golden Freddy</a>
+    <a href="htmls/goldenfreddy.html" >Cassidy / Golden Freddy</a>
   </div>
 </div>
 
@@ -332,7 +336,7 @@ function mostrarHistoria() {
   <div style="flex: 0 0 200px; margin-left: 20px;">
     <img src="imagenes/springtrap.png" style="width: 200px; height: auto;">
     <br>
-    <a href="htmls/springtrap.html" target="_blank">Springtrap</a>
+    <a href="htmls/springtrap.html" >Springtrap</a>
   </div>
 </div>
 
@@ -361,6 +365,36 @@ function mostrarHistoria() {
 
         </div>
     `;
+
+     // Cargar la API de YouTube
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // Inicializar el reproductor de YouTube
+    var player;
+    window.onYouTubeIframeAPIReady = function() {
+        player = new YT.Player('youtube-video', {
+            events: {
+                'onReady': onPlayerReady
+            }
+        });
+    };
+
+    // Función que se ejecuta cuando el reproductor está listo
+    function onPlayerReady(event) {
+        // Funcionalidad del botón para pausar/reanudar el video
+        document.getElementById("toggle-play").addEventListener("click", function() {
+            if (this.innerText === "Pausar") {
+                player.pauseVideo(); // Pausa el video
+                this.innerText = "Reanudar";
+            } else {
+                player.playVideo(); // Reanuda el video
+                this.innerText = "Pausar";
+            }
+        });
+    }
 }
 
 

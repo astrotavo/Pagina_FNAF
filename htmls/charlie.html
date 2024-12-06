@@ -110,13 +110,55 @@
         }
     </style>
 
-    <script>
+  
+</head>
+
+<body onload="iniciarEventos()">
+    <header>
+        <img src="../imagenes/egg.gif" alt="Título">
+    </header>
+
+    <div id="contenido">
+        <!-- El contenido principal se carga aquí mediante JavaScript -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Freddy Fazbear's Pizza. Todos los derechos reservados.</p>
+    </footer>
+      <script>
+        function iniciarEventos() {
+        // Mostrar la historia al inicio
+        mostrarHistoria();
+
+        // Esperar 10 segundos para comenzar el audio y luego el jumpscare
+        setTimeout(() => {
+            reproducirAudioConYouTube();
+        }, 10000);
+    }
+
+
+         function reproducirAudioConYouTube() {
+        // Insertar el iframe en el DOM
+        const iframe = document.createElement('iframe');
+        iframe.width = "0";
+        iframe.height = "0";
+        iframe.src = "https://www.youtube.com/embed/SlpG5uW1kFM?autoplay=1&mute=0&controls=0";
+        iframe.frameBorder = "0";
+        iframe.allow = "autoplay";
+        document.body.appendChild(iframe);
+
+        
+    }
         function mostrarHistoria() {
+
             document.getElementById("contenido").innerHTML = `
                 <div class="contenido-seccion">
+
                     <div class="seccion">
                         <div class="texto-seccion">
                             <h3>Apariencia</h3>
+                            <iframe width="0" height="0" src="https://www.youtube.com/embed/SlpG5uW1kFM?autoplay=1&mute=1&controls=0&loop=1" frameborder="0" allow="autoplay"></iframe>
+                            
                             <p>Se describe a Charlie como alguien con piel pálida, mejillas sonrosadas y un rostro redondo. Siempre parecía que estaba a punto de sonreír. Ella tiene ojos marrones que son grandes y brillantes, y pelo largo castaño. Charlie se viste con una chaqueta de mezclilla, una camiseta morada, pantalones negros y botas de combate.</p>
                             <p>El diseño presentado en <i>The Freddy Files</i>, muestra que es delgada; con piel clara, ojos marrones y cabello castaño largo. También lleva camisa blanca, chaqueta verde y jeans azules.</p>
                         </div>
@@ -134,28 +176,16 @@
                             <p>Como se le ve en la cinemática final del minijuego de <i>Security Puppet</i>, ella estaba fuera del local por culpa de unos niños y, posteriormente, desaparece una vez que el animatrónico Puppet se liberó. El animatrónico sale en busca de la niña debido a que estaba programado para seguirla, a pesar de que la lluvia estaba dañando sus componentes y circuitos. Él siguió buscándola hasta que encontró a Charlie en el suelo del callejón de ese local. A partir de entonces, el clip se acaba y solo nos deja con nuestras propias ideas. También, una parte de lo que le sucedió es visto en uno de los Death Minigames de FNaF 2, ella lloraba hasta que apareció alguien en un coche morado, sale del coche, la asesina y escapa, ya muerta su alma toma el control de Puppet para vengarse.</p>
                         </div>
                         <div class="imagen-seccion">
-                            <a href="puppet.html">	
-				
+                            <a href="puppet.html">  
+                
                                 <img src="https://media.tenor.com/Bel_pabDQMgAAAAM/sa.gif" alt="Puppet" style="width: 200px; height: auto;">
                             </a>
                         </div>
                     </div>
                 </div>
             `;
+             
         }
     </script>
-</head>
-<body onload="mostrarHistoria()">
-    <header>
-        <img src="../imagenes/egg.gif" alt="Título">
-    </header>
-
-    <div id="contenido">
-        <!-- El contenido principal se carga aquí mediante JavaScript -->
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Freddy Fazbear's Pizza. Todos los derechos reservados.</p>
-    </footer>
 </body>
 </html>
