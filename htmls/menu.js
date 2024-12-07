@@ -76,7 +76,7 @@ function mostrarHistoria() {
     <div style="flex: 0 0 200px; margin-left: 20px;">
         <img src="https://i.pinimg.com/originals/bf/80/87/bf8087e60128ac3e0897eaaabd2d7330.png" style="width: 100%; height: auto;">
         <br>
-        <a href="htmls/baby.html" >Circus Baby Pizza World</a>
+        <a href="htmls/circusbaby.html" >Circus Baby Pizza World</a>
     </div>
 
 
@@ -323,7 +323,7 @@ function mostrarHistoria() {
   <div style="flex: 0 0 200px; margin-left: 20px;">
     <img src="https://i.pinimg.com/originals/84/f3/e3/84f3e3b675fea90178f6ddfaab320576.gif" style="width: 200px; height: auto;">
     <br>
-    <a href="htmls/goldenfreddy.html" >Cassidy / Golden Freddy</a>
+    <a href="htmls/golden.html" >Cassidy / Golden Freddy</a>
   </div>
 </div>
 

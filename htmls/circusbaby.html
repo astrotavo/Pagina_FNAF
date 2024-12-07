@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circus Baby Pizza World</title>
+    
+    <style>
+        /* Ajustar el tamaño de las imágenes dentro de la sección */
+        .imagen-seccion img {
+            width: 500px; 
+            height: auto; 
+            display: block;
+            margin: 0 auto; 
+        }
+
+        .imagen-seccion {
+            flex: 0 0 auto;
+            margin-left: 20px;
+            width: 500px; 
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+            background-image: url('../imagenes/fondo.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        header img {
+            width: 500px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            animation: EntrarDesdeIzq 1s ease-out forwards; 
+        }
+
+        header {
+            background-color: #600000;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            border-bottom: 2px solid #ff0000;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 2px 2px 5px #ff0000;
+        }
+
+        #contenido {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .contenido-seccion {
+            display: flex;
+            flex-direction: column;
+            background-image: url('../imagenes/fondo.jpg');
+            background-size: auto;
+            background-repeat: repeat;
+            background-position: top left;
+            padding: 20px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+
+        .contenido-seccion .seccion {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .contenido-seccion .seccion .texto-seccion {
+            flex: 1;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+
+        .contenido-seccion .seccion .imagen-seccion {
+            flex: 0 0 200px;
+            margin-left: 20px;
+        }
+
+        .contenido-seccion .seccion .imagen-seccion img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #600000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 2px solid #ff0000;
+        }
+    </style>
+
+    <script>
+        function mostrarHistoria() {
+            document.getElementById("contenido").innerHTML = `
+                <div class="contenido-seccion">
+                    <div class="seccion">
+                        <div class="texto-seccion">
+                            <h3>Historia</h3>
+                            <h4>Juegos</h4>
+                            <p>Historia
+El restaurante fue creado por Afton Robotics LLC en una fecha desconocida.
+
+Sin embargo, según Circus Baby, solo duró un día ya que sucedió un terrible incidente que fue cubierto con una fuga de gas.
+
+"En otras noticias: la gran inauguración de Circus Baby's Pizza World aparentemente ha sido cancelada debido a las fugas de gas en el edificio. Fuentes cercanas a la actividad del establecimiento por la noche sugieren que algo más es el culpable.
+
+Se cita a un lugareño que dijo: "Todo se detuvo. Se generó mucho entusiasmo en torno a la apertura de este lugar y luego dejaron de hablar de ello. Solo hubo un puñado de personas que alguna vez pudieron ver el interior, niños de aquí y ahí, asegurándose de que todo funcionara bien, ya sabes. Supongo que no estaban tan listos como pensaban".
+
+Un inquilino del otro lado de la calle afirma haber presenciado un gran grupo de automóviles rodeando el edificio durante la noche, y que grandes piezas de equipo fueron sacadas del edificio debajo de lonas. Unas semanas más tarde, el edificio estaba a la venta."
+
+El cierre del restaurante conduciría más tarde a la apertura de Circus Baby's Entertainment & Rental, una instalación de almacenamiento y reparación de animatrónicos.</p>
+                           
+                        </div>
+                        <div class="imagen-seccion">
+                            <img src="https://i.pinimg.com/originals/10/c9/9b/10c99b15aea44fe7bc2a94e082f61c6f.png" style="width: 300px; height: auto;">
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+    </script>
+</head>
+<body onload="mostrarHistoria()">
+    <header>
+        <img src="../imagenes/egg.gif" alt="Título">
+    </header>
+
+    <div id="contenido">
+        <!-- El contenido principal se carga aquí mediante JavaScript -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Freddy Fazbear's Pizza. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
